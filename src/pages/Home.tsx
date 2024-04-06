@@ -1,4 +1,5 @@
-import youtube_snippet_image from 'assets/images/youtube-playlist-saver/snippet.png'
+import ProjectSnippet from 'components/ProjectSnippet';
+import snippetData from 'assets/project_snippet_data.json';
 
 function Home() {
     return (
@@ -16,15 +17,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:py-24">
-                        <div className="flex flex-row bg-green-500/15 shadow-xl gap-x-10 px-6 py-4 mb-12 border border-slate-400 rounded-md">
-                            <div className="flex-none w-32">
-                                <img src={youtube_snippet_image} className="mt-1 h-auto max-w-full rounded" />
-                            </div>
-                            <div className="space-y-2">
-                                <h2 className="text-slate-100">Youtube playlist saver</h2>
-                                <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
+                        {snippetData.content.map(snippet => 
+                            <ProjectSnippet snippet={snippet}/>
+                        )}
                     </div>
                 </div>
             </div>
