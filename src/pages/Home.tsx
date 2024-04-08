@@ -1,5 +1,5 @@
-import ProjectSnippet from 'components/ProjectSnippet';
 import snippetData from 'assets/project_snippet_data.json';
+import ProjectSnippet from 'components/ProjectSnippet';
 
 function Home() {
     return (

@@ -3,17 +3,17 @@
         {
             "title": "Hue lamp app",
             "description": "Hue Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "image_path": "assets/images/hue-lamp-app/snippet.png"
+            "imageName": ""
         },
         {
             "title": "Youtube playlist saver",
             "description": "Youtube Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "image_path": "assets/images/youtube-playlist-saver/snippet.png"
+            "imageName": "youtubeSnippetImage"
         },
         {
             "title": "Spotify playlist saver",
             "description": "Spotify Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "image_path": "assets/images/spotify-playlist-saver/snippet.png"
+            "imageName": ""
         }
     ]
 }
