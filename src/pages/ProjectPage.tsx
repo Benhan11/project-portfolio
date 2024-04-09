@@ -1,10 +1,19 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJs, faNodeJs, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+
+
 function ProjectPage() {
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="border mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="border lg:py-24 md:py-12 sm:py-6">
                     <h1 className="text-slate-100 text-3xl font-medium">Youtube playlist saver</h1>
-                    <h2 className="text-lg">JavaScript Node.js EJS Bootstrap</h2>
+                    <h2 className="text-lg">
+                        <FontAwesomeIcon icon={faJs} />JavaScript
+                        <FontAwesomeIcon icon={faNodeJs} />Node.js
+                        <FontAwesomeIcon icon={faBootstrap} />Bootstrap
+                        <FontAwesomeIcon icon={faJs} />EJS
+                    </h2>
                 </div>
                 <div className="border lg:flex lg:justify-between">
                     <div className="border lg:w-1/2 lg:py-24 md:py-12 sm:py-6">
