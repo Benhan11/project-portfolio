@@ -1,7 +1,7 @@
 import snippetData from 'assets/project_snippet_data.json';
 import ProjectSnippet from 'components/ProjectSnippet';
 
-function Home() {
+function HomePage() {
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
@@ -27,4 +27,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default HomePage;
