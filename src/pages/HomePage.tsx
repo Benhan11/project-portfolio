@@ -1,5 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFontAwesome } from '@fortawesome/free-brands-svg-icons';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+
 import snippetData from 'assets/project_snippet_data.json';
 import ProjectSnippet from 'components/ProjectSnippet';
+
 
 function HomePage() {
     return (
@@ -20,6 +25,9 @@ function HomePage() {
                         {snippetData.content.map(snippet => 
                             <ProjectSnippet snippet={snippet}/>
                         )}
+                        <p className="text-slate-400 text-sm pt-6 flex justify-center">
+                            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <FontAwesomeIcon icon={faFontAwesome} color="DodgerBlue" /> Font Awesome <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="sm" /></a>
+                        </p>
                     </div>
                 </div>
             </div>
