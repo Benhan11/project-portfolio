@@ -18,7 +18,7 @@ function ProjectPage() {
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-24 md:py-12 sm:py-6">
-                    <h1 className="text-slate-100 text-3xl font-medium">Youtube playlist saver</h1>
+                    <h1 className="text-slate-100 text-3xl font-medium">{tempDataProp.title}</h1>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
                         {tempDataProp.tags.map(tag => 
                             <TechnologyTag data={tag}/>
