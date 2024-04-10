@@ -1,0 +1,35 @@
+{
+    "content": [
+        {
+            "title": "Youtube playlist saver",
+            "dataSections": [
+                {
+                    "title": "Subtitle",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                }
+            ],
+            "tags": [
+                {
+                    "name": "JavaScript",
+                    "color": "yellow",
+                    "iconName": "jsIcon"
+                },
+                {
+                    "name": "Node.js",
+                    "color": "lime",
+                    "iconName": "nodeJsIcon"
+                },
+                {
+                    "name": "Bootstrap",
+                    "color": "sky",
+                    "iconName": "bootstrapIcon"
+                },
+                {
+                    "name": "EJS",
+                    "color": "red",
+                    "iconName": "jsIcon"
+                }
+            ]
+        }
+    ]
+}
