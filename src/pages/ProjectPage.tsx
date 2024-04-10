@@ -19,7 +19,7 @@ function ProjectPage() {
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-24 md:py-12 sm:py-6">
                     <h1 className="text-slate-100 text-3xl font-medium">Youtube playlist saver</h1>
-                    <div className="flex flex-wrap max-w-80 pt-1 gap-y-1">
+                    <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
                         {tempDataProp.tags.map(tag => 
                             <TechnologyTag data={tag}/>
                         )}
