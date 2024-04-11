@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
-import imagesRaw from 'assets/images/images';
 import { Link } from 'react-router-dom';
+import imagesRaw from 'assets/images/images';
 
 
 type ImagesType = {

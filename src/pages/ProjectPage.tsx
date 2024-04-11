@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+
+import { Link } from 'react-router-dom';
 import projectData from 'assets/project_page_data.json';
 import TechnologyTag from 'components/TechnologyTag';
 
@@ -18,6 +22,7 @@ function ProjectPage() {
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-24 md:py-12 sm:py-6">
+                    <Link to="/"><FontAwesomeIcon icon={faChevronLeft} size="sm" /> Home</Link>
                     <h1 className="text-slate-100 text-3xl font-medium">{tempDataProp.title}</h1>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
                         {tempDataProp.tags.map(tag => 
