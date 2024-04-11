@@ -1,6 +1,6 @@
 {
-    "content": [
-        {
+    "content": {
+        "youtube-playlist-saver": {
             "title": "Youtube playlist saver",
             "dataSections": [
                 {
@@ -32,7 +32,7 @@
                 }
             ]
         },
-        {
+        "hue-lamp-app": {
             "title": "Hue lamp app",
             "dataSections": [
                 {
@@ -54,5 +54,5 @@
                 }
             ]
         }
-    ]
+    }
 }

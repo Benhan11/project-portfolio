@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import HomePage from 'pages/HomePage';
 import ProjectPage from 'pages/ProjectPage';
 
@@ -8,7 +8,8 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/project" element={<ProjectPage />} />
+                <Route path="/project/:projectId" element={<ProjectPage />} />
+                <Route path="/project" element={<Navigate to="/" />} />
             </Routes>
         </BrowserRouter>
     );

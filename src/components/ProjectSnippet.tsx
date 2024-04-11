@@ -20,12 +20,13 @@ type SnippetType = {
     title: string;
     description: string;
     imageName: string;
+    projectId: string;
 }
 
 
 function ProjectSnippet({ snippet }: SnippetProps) {
     return (
-        <Link to="/project" className="flex flex-row bg-green-500/15 shadow-xl gap-x-10 px-6 py-4 mb-12 border border-slate-400 rounded-md 
+        <Link to={`/project/${snippet.projectId}`} className="flex flex-row bg-green-500/15 shadow-xl gap-x-10 px-6 py-4 mb-12 border border-slate-400 rounded-md 
                         transition ease-in-out delay-0 duration-200 hover:translate-y-1 hover:scale-105 hover:bg-green-500/20 hover:shadow-2xl">
             {snippet.imageName !== '' && 
                 <div className="flex-none w-32">

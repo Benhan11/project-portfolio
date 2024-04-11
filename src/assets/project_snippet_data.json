@@ -1,24 +1,28 @@
 {
     "content": [
         {
-            "title": "Hue lamp app",
-            "description": "Hue Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "imageName": "hueSnippetImage"
-        },
-        {
             "title": "Youtube playlist saver",
             "description": "Youtube Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "imageName": "youtubeSnippetImage"
+            "imageName": "youtubeSnippetImage",
+            "projectId": "youtube-playlist-saver"
+        },
+        {
+            "title": "Hue lamp app",
+            "description": "Hue Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "imageName": "hueSnippetImage",
+            "projectId": "hue-lamp-app"
         },
         {
             "title": "Spotify playlist saver",
             "description": "Spotify Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "imageName": ""
+            "imageName": "",
+            "projectId": "spotify-playlist-saver"
         },
         {
             "title": "Project portfolio",
             "description": "Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-            "imageName": ""
+            "imageName": "",
+            "projectId": "project-portfolio"
         }
     ]
 }

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
-import { Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import projectData from 'assets/project_page_data.json';
 import TechnologyTag from 'components/TechnologyTag';
 
@@ -16,21 +16,22 @@ const images: ImagesType = imagesRaw;
 
 
 function ProjectPage() {
-    let tempDataProp = projectData.content[0];
+    const { projectId } = useParams<{ projectId: string }>();
+    let project = projectData.content[projectId as keyof typeof projectData.content];
 
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-24 md:py-12 sm:py-6">
                     <Link to="/"><FontAwesomeIcon icon={faChevronLeft} size="sm" /> Home</Link>
-                    <h1 className="text-slate-100 text-3xl font-medium">{tempDataProp.title}</h1>
+                    <h1 className="text-slate-100 text-3xl font-medium">{project.title}</h1>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
-                        {tempDataProp.tags.map(tag => 
+                        {project.tags.map(tag => 
                             <TechnologyTag data={tag}/>
                         )}
                     </div>
                 </div>
-                {tempDataProp.dataSections.map(section => 
+                {project.dataSections.map(section => 
                     <div className="lg:flex lg:justify-between">
                         <div className="lg:w-1/2 lg:py-24 md:py-12 sm:py-6">
                             <div className="">
