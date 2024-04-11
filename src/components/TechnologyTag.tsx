@@ -23,8 +23,8 @@ type TagType = {
 
 function TechnologyTag({ data }: TagProps) {
     return (
-        <span className={"flex-none border rounded-full border-" + data.color + "-500 bg-" + data.color + "-200/5 text-" + data.color + "-500 px-3 pt-1 pb-0.5 me-1"}>
-            <FontAwesomeIcon icon={icons[data.iconName]} className="" /> {data.name}</span>
+        <span className={`flex-none border rounded-full border-${data.color}-500 bg-${data.color}-200/5 text-${data.color}-500 px-3 pt-1 pb-0.5 me-1`}>
+            <FontAwesomeIcon icon={icons[data.iconName]} /> {data.name}</span>
     );
 }
 
