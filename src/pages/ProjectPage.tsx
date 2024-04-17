@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
+import { useRef, createRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import projectData from 'assets/project_page_data.json';
 import TechnologyTag from 'components/TechnologyTag';
+import useIsVisible from 'hooks/useIsVisible';
 
 import imagesRaw from 'assets/images/images';
 
@@ -19,6 +21,9 @@ function ProjectPage() {
     const { projectId } = useParams<{ projectId: string }>();
     let project = projectData.content[projectId as keyof typeof projectData.content];
 
+    const sectionsRef = useRef<Array<React.RefObject<HTMLDivElement>>>(project.dataSections.map(() => createRef()));
+    const isVisibleArray = useIsVisible({ elements: sectionsRef.current });
+
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
@@ -33,8 +38,8 @@ function ProjectPage() {
                         )}
                     </div>
                 </div>
-                {project.dataSections.map(section => 
-                    <div className="lg:flex lg:justify-between pb-36">
+                {project.dataSections.map((section, index) => 
+                    <div ref={sectionsRef.current[index]} className={`lg:flex lg:justify-between pb-36 transition-opacity ease-in duration-300 ${isVisibleArray[index] ? "opacity-100" : "opacity-30"}`}>
                         <div className="lg:w-1/2 flex items-center">
                             <div>
                                 <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">{section.title}</a><br/>
@@ -46,6 +51,9 @@ function ProjectPage() {
                         </div>
                     </div>
                 )}
+            </div>
+            <div className="border h-32 mt-20">
+                Footer
             </div>
         </div>
     );
