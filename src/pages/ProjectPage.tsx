@@ -22,8 +22,10 @@ function ProjectPage() {
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
-                <div className="lg:py-24 md:py-12 sm:py-6">
-                    <Link to="/"><FontAwesomeIcon icon={faChevronLeft} size="sm" /> Home</Link>
+                <div className="lg:py-20 md:py-12 sm:py-6">
+                    <div className="mb-3">
+                        <Link to="/"><FontAwesomeIcon icon={faChevronLeft} size="sm" /> Home</Link>
+                    </div>
                     <h1 className="text-slate-100 text-3xl font-medium">{project.title}</h1>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
                         {project.tags.map(tag => 
@@ -32,14 +34,14 @@ function ProjectPage() {
                     </div>
                 </div>
                 {project.dataSections.map(section => 
-                    <div className="lg:flex lg:justify-between">
-                        <div className="lg:w-1/2 lg:py-24 md:py-12 sm:py-6">
-                            <div className="">
+                    <div className="lg:flex lg:justify-between pb-36">
+                        <div className="lg:w-1/2 flex items-center">
+                            <div>
                                 <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">{section.title}</a><br/>
                                 {section.text}
                             </div>
                         </div>
-                        <div className="flex lg:w-1/2 justify-end">
+                        <div className="flex flex-row lg:w-1/2 pt-10 justify-end items-center">
                             <img src={images[section.imageName]} className="shadow-lg max-w-full max-h-96 rounded" />
                         </div>
                     </div>
