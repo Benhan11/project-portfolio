@@ -37,4 +37,4 @@ const icons: IconsType = {
 };
 
 
-export default icons
+export default icons;

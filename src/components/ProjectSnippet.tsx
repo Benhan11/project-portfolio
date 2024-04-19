@@ -2,14 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Link } from 'react-router-dom';
 import icons from 'assets/images/icons';
-import imagesRaw from 'assets/images/images';
-
-
-type ImagesType = {
-    [key: string]: string;
-}
-
-const images: ImagesType = imagesRaw;
+import images from 'assets/images/images';
 
 
 interface SnippetProps {

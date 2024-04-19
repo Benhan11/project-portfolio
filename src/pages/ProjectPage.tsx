@@ -7,14 +7,7 @@ import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
 import icons from 'assets/images/icons';
-import imagesRaw from 'assets/images/images';
-
-
-type ImagesType = {
-    [key: string]: string;
-}
-
-const images: ImagesType = imagesRaw;
+import images from 'assets/images/images';
 
 
 function ProjectPage() {

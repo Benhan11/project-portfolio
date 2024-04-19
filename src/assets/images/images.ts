@@ -2,7 +2,14 @@ import youtubeSnippetImage from 'assets/images/youtube-playlist-saver/snippet.pn
 import hueSnippetImage from 'assets/images/hue-lamp-app/snippet.png';
 
 
-export default {
+type ImagesType = {
+    [key: string]: string;
+}
+
+const images: ImagesType = {
     youtubeSnippetImage,
     hueSnippetImage,
-}
+};
+
+
+export default images;
