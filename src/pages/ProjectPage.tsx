@@ -25,7 +25,7 @@ function ProjectPage() {
     const isVisibleArray = useIsVisible({ elements: sectionsRef.current });
 
     return (
-        <div className={`min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-rose-800/95 to-black`}>
+        <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-20 md:py-12 sm:py-6">
                     <div className="mb-3">
