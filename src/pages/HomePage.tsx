@@ -23,7 +23,7 @@ function HomePage() {
                     </div>
                     <div className="lg:w-1/2 lg:py-24">
                         {snippetData.content.map(snippet => 
-                            <ProjectSnippet snippet={snippet}/>
+                            <ProjectSnippet key={snippet.projectId} snippet={snippet}/>
                         )}
                         <p className="text-slate-400 text-sm pt-6 flex justify-center">
                             <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <FontAwesomeIcon icon={faFontAwesome} color="DodgerBlue" /> Font Awesome <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="sm" /></a>
