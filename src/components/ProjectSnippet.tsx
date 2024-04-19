@@ -1,8 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 import { Link } from 'react-router-dom';
+import iconsRaw from 'assets/images/icons';
 import imagesRaw from 'assets/images/images';
+
+
+type IconsType = {
+    [key: string]: IconProp;
+}
+
+const icons: IconsType = iconsRaw;
 
 
 type ImagesType = {
@@ -38,7 +46,7 @@ function ProjectSnippet({ snippet }: SnippetProps) {
             <div className="space-y-2">
                 <div className="flex justify-between">
                     <h2 className="text-slate-100">{snippet.title}</h2>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="sm" className="mt-1" />
+                    <FontAwesomeIcon icon={icons['opensNewPageIcon']} size="sm" className="mt-1" />
                 </div>
                 <p>{snippet.description}</p>
             </div>

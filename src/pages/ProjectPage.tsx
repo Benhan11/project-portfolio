@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 import { useRef, createRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
@@ -7,7 +7,15 @@ import ProjectTag from 'components/ProjectTag';
 import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
+import iconsRaw from 'assets/images/icons';
 import imagesRaw from 'assets/images/images';
+
+
+type IconsType = {
+    [key: string]: IconProp;
+}
+
+const icons: IconsType = iconsRaw;
 
 
 type ImagesType = {
@@ -29,7 +37,7 @@ function ProjectPage() {
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-20 md:py-12 sm:py-6">
                     <div className="mb-3">
-                        <Link to="/"><FontAwesomeIcon icon={faChevronLeft} size="sm" /> Home</Link>
+                        <Link to="/"><FontAwesomeIcon icon={icons['backIcon']} size="sm" /> Home</Link>
                     </div>
                     <h1 className="text-slate-100 text-3xl font-medium">{project.title}</h1>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
