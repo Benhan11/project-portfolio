@@ -1,13 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import iconsRaw from 'assets/images/icons';
-
-
-type IconsType = {
-    [key: string]: IconProp;
-}
-
-const icons: IconsType = iconsRaw;
+import icons from 'assets/images/icons';
 
 
 interface TagProps {

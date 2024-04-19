@@ -1,16 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 import { Link } from 'react-router-dom';
-import iconsRaw from 'assets/images/icons';
+import icons from 'assets/images/icons';
 import imagesRaw from 'assets/images/images';
-
-
-type IconsType = {
-    [key: string]: IconProp;
-}
-
-const icons: IconsType = iconsRaw;
 
 
 type ImagesType = {

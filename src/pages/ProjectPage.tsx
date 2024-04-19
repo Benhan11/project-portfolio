@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 import { useRef, createRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
@@ -7,15 +6,8 @@ import ProjectTag from 'components/ProjectTag';
 import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
-import iconsRaw from 'assets/images/icons';
+import icons from 'assets/images/icons';
 import imagesRaw from 'assets/images/images';
-
-
-type IconsType = {
-    [key: string]: IconProp;
-}
-
-const icons: IconsType = iconsRaw;
 
 
 type ImagesType = {

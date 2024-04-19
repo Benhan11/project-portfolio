@@ -1,15 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 import ProjectSnippet from 'components/ProjectSnippet';
 import snippetData from 'assets/project_snippet_data.json';
-import iconsRaw from 'assets/images/icons';
-
-type IconsType = {
-    [key: string]: IconProp;
-}
-
-const icons: IconsType = iconsRaw;
+import icons from 'assets/images/icons';
 
 
 function HomePage() {

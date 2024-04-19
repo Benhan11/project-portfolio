@@ -15,7 +15,14 @@ import {
     faChevronLeft as backIcon,
 } from '@fortawesome/free-solid-svg-icons'
 
-export default {
+
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
+type IconsType = {
+    [key: string]: IconProp;
+}
+
+const icons: IconsType = {
     fontAwesomeIcon,
     githubIcon1,
     githubIcon2,
@@ -27,4 +34,7 @@ export default {
     pythonIcon,
     opensNewPageIcon,
     backIcon,
-}
+};
+
+
+export default icons
