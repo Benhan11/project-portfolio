@@ -9,9 +9,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
-    faArrowUpRightFromSquare as opensNewPageIcon,
+    faArrowUpRightFromSquare as opensNewPageBoxIcon,
+    faArrowUp as opensNewPageArrowIcon,
     faChevronLeft as backIcon,
-    faSquare as squareIcon,
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -29,9 +29,9 @@ const icons: IconsType = {
     nodeJsIcon,
     bootstrapIcon,
     pythonIcon,
-    opensNewPageIcon,
+    opensNewPageBoxIcon,
+    opensNewPageArrowIcon,
     backIcon,
-    squareIcon,
 };
 
 

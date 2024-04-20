@@ -24,7 +24,10 @@ function ProjectPage() {
                     <div className="mb-3">
                         <Link to="/"><FontAwesomeIcon icon={icons['backIcon']} size="sm" /> Home</Link>
                     </div>
-                    <h1 className="text-slate-100 text-3xl font-medium">{project.title}</h1>
+                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-2">
+                        <div>{project.title}</div>
+                        <FontAwesomeIcon icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
+                    </a>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
                         {project.tags.map(tag => 
                             <ProjectTag key={tag.name} data={tag}/>

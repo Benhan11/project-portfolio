@@ -1,11 +1,22 @@
 {
     "content": {
         "youtube-playlist-saver": {
+            "url": "https://github.com/Benhan11/youtube-playlist-saver",
             "title": "Youtube playlist saver",
             "dataSections": [
                 {
-                    "title": "Subtitle",
+                    "title": "Medium subtitle",
                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+                    "imageName": "youtubeSnippetImage"
+                },
+                {
+                    "title": "Short",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "imageName": "youtubeSnippetImage"
+                },
+                {
+                    "title": "Long",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
                     "imageName": "youtubeSnippetImage"
                 }
             ],
@@ -33,6 +44,7 @@
             ]
         },
         "hue-lamp-app": {
+            "url": "https://github.com/Benhan11/hue-lamp-app",
             "title": "Hue lamp app",
             "dataSections": [
                 {

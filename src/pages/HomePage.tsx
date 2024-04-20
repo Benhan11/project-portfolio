@@ -12,7 +12,10 @@ function HomePage() {
                 <div className="lg:flex lg:justify-between">
                     <div className="lg:flex lg:flex-col lg:sticky lg:top-0 lg:max-h-screen lg:w-1/2 lg:py-24 md:py-12 sm:py-6">
                         <div>
-                            <h1 className="text-slate-100 text-3xl font-medium">Project portfolio</h1>
+                            <a href="https://github.com/Benhan11/portfolio-app" target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-1">
+                                <div>Project portfolio</div>
+                                <FontAwesomeIcon icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
+                            </a>
                             <h2 className="text-lg">Benjamin Hansson</h2>
                             <div className="space-x-2 pt-2">
                                 <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icons['linkedinIcon']} size="xl" /></a>
@@ -29,7 +32,7 @@ function HomePage() {
                             <ProjectSnippet key={snippet.projectId} snippet={snippet}/>
                         )}
                         <p className="text-slate-400 text-sm pt-6 flex justify-center">
-                            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <FontAwesomeIcon icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <FontAwesomeIcon icon={icons['opensNewPageIcon']} size="sm" /></a>
+                            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <FontAwesomeIcon icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <FontAwesomeIcon icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
                         </p>
                     </div>
                 </div>
