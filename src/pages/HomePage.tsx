@@ -14,6 +14,10 @@ function HomePage() {
                         <div>
                             <h1 className="text-slate-100 text-3xl font-medium">Project portfolio</h1>
                             <h2 className="text-lg">Benjamin Hansson</h2>
+                            <div className="space-x-2 pt-2">
+                                <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icons['linkedinIcon']} size="xl" /></a>
+                                <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icons['githubIcon']} size="lg" /></a>
+                            </div>
                             <p className="max-w-72 pt-16">
                                 <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">Welcome!</a><br/>
                                 Feel free to explore some of my personal projects.

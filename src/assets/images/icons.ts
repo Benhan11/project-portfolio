@@ -1,9 +1,7 @@
 import {
     faFontAwesome as fontAwesomeIcon,
-    faGithub as githubIcon1,
-    faGithubSquare as githubIcon2,
-    faLinkedin as linkedinIcon1,
-    faLinkedinIn as linkedinIcon2,
+    faGithub as githubIcon,
+    faLinkedin as linkedinIcon,
     faJs as jsIcon, 
     faNodeJs as nodeJsIcon, 
     faBootstrap as bootstrapIcon,
@@ -13,6 +11,7 @@ import {
 import {
     faArrowUpRightFromSquare as opensNewPageIcon,
     faChevronLeft as backIcon,
+    faSquare as squareIcon,
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -24,16 +23,15 @@ type IconsType = {
 
 const icons: IconsType = {
     fontAwesomeIcon,
-    githubIcon1,
-    githubIcon2,
-    linkedinIcon1,
-    linkedinIcon2,
+    githubIcon,
+    linkedinIcon,
     jsIcon,
     nodeJsIcon,
     bootstrapIcon,
     pythonIcon,
     opensNewPageIcon,
     backIcon,
+    squareIcon,
 };
 
 
