@@ -32,6 +32,11 @@
                     "iconName": "nodeJsIcon"
                 },
                 {
+                    "name": "Express",
+                    "color": "amber",
+                    "iconName": "jsIcon"
+                },
+                {
                     "name": "Bootstrap",
                     "color": "sky",
                     "iconName": "bootstrapIcon"
@@ -40,6 +45,11 @@
                     "name": "EJS",
                     "color": "red",
                     "iconName": "jsIcon"
+                },
+                {
+                    "name": "HTML/CSS",
+                    "color": "orange",
+                    "iconName": "html5Icon"
                 }
             ]
         },
@@ -63,6 +73,45 @@
                     "name": "Tkinter",
                     "color": "amber",
                     "iconName": "pythonIcon"
+                }
+            ]
+        },
+        "spotify-playlist-saver": {
+            "url": "",
+            "title": "Spotify playlist saver",
+            "dataSections": [],
+            "tags": [
+                {
+                    "name": "",
+                    "color": "",
+                    "iconName": ""
+                }
+            ]
+        },
+        "project-portfolio": {
+            "url": "https://github.com/Benhan11/portfolio-app",
+            "title": "Project portfolio",
+            "dataSections": [],
+            "tags": [
+                {
+                    "name": "React",
+                    "color": "",
+                    "iconName": ""
+                },
+                {
+                    "name": "TypeScript",
+                    "color": "sky",
+                    "iconName": "typescriptIcon"
+                },
+                {
+                    "name": "Tailwind",
+                    "color": "",
+                    "iconName": ""
+                },
+                {
+                    "name": "HTML/CSS",
+                    "color": "orange",
+                    "iconName": "html5Icon"
                 }
             ]
         }

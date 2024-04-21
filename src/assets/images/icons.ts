@@ -1,3 +1,8 @@
+/* Manually added icons, represented as type string */
+import typescriptIcon from 'assets/images/manual-icons/typescriptIcon.svg';
+
+
+/* Font awesome icons, represented as type IconProp */
 import {
     faFontAwesome as fontAwesomeIcon,
     faGithub as githubIcon,
@@ -6,6 +11,7 @@ import {
     faNodeJs as nodeJsIcon, 
     faBootstrap as bootstrapIcon,
     faPython as pythonIcon,
+    faHtml5 as html5Icon,
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -14,12 +20,12 @@ import {
     faChevronLeft as backIcon,
 } from '@fortawesome/free-solid-svg-icons'
 
-
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 type IconsType = {
-    [key: string]: IconProp;
+    [key: string]: IconProp | string;
 }
+
 
 const icons: IconsType = {
     fontAwesomeIcon,
@@ -29,6 +35,8 @@ const icons: IconsType = {
     nodeJsIcon,
     bootstrapIcon,
     pythonIcon,
+    html5Icon,
+    typescriptIcon,
     opensNewPageBoxIcon,
     opensNewPageArrowIcon,
     backIcon,

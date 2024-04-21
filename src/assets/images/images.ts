@@ -1,5 +1,5 @@
-import youtubeSnippetImage from 'assets/images/youtube-playlist-saver/snippet.png';
-import hueSnippetImage from 'assets/images/hue-lamp-app/snippet.png';
+import youtubeSnippetImage from 'assets/images/project-images/youtube-playlist-saver/snippet.png';
+import hueSnippetImage from 'assets/images/project-images/hue-lamp-app/snippet.png';
 
 
 type ImagesType = {

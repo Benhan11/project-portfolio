@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import ProjectSnippet from 'components/ProjectSnippet';
+import IconWrapper from 'components/IconWrapper';
 import snippetData from 'assets/project_snippet_data.json';
 import icons from 'assets/images/icons';
 
@@ -14,12 +13,12 @@ function HomePage() {
                         <div>
                             <a href="https://github.com/Benhan11/portfolio-app" target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-1">
                                 <div>Project portfolio</div>
-                                <FontAwesomeIcon icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
+                                <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
                             </a>
                             <h2 className="text-lg">Benjamin Hansson</h2>
                             <div className="space-x-2 pt-2">
-                                <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icons['linkedinIcon']} size="xl" /></a>
-                                <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={icons['githubIcon']} size="lg" /></a>
+                                <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['linkedinIcon']} size="xl" /></a>
+                                <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
                             </div>
                             <p className="max-w-72 pt-16">
                                 <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">Welcome!</a><br/>
@@ -32,7 +31,7 @@ function HomePage() {
                             <ProjectSnippet key={snippet.projectId} snippet={snippet}/>
                         )}
                         <p className="text-slate-400 text-sm pt-6 flex justify-center">
-                            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <FontAwesomeIcon icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <FontAwesomeIcon icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
+                            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <IconWrapper icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
                         </p>
                     </div>
                 </div>

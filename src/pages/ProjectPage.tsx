@@ -1,8 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { useRef, createRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ProjectTag from 'components/ProjectTag';
+import IconWrapper from 'components/IconWrapper';
 import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
@@ -22,11 +21,11 @@ function ProjectPage() {
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:py-20 md:py-12 sm:py-6">
                     <div className="mb-3">
-                        <Link to="/"><FontAwesomeIcon icon={icons['backIcon']} size="sm" /> Home</Link>
+                        <Link to="/"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
                     </div>
                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-2">
                         <div>{project.title}</div>
-                        <FontAwesomeIcon icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
+                        <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
                     </a>
                     <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
                         {project.tags.map(tag => 

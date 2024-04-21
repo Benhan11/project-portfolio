@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { Link } from 'react-router-dom';
+import IconWrapper from 'components/IconWrapper';
 import icons from 'assets/images/icons';
 import images from 'assets/images/images';
 
@@ -31,7 +30,7 @@ function ProjectSnippet({ snippet }: SnippetProps) {
             <div className="space-y-2">
                 <div className="flex justify-between">
                     <h2 className="text-slate-100">{snippet.title}</h2>
-                    <FontAwesomeIcon icon={icons['opensNewPageBoxIcon']} size="sm" className="mt-1" />
+                    <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" className="mt-1" />
                 </div>
                 <p>{snippet.description}</p>
             </div>
