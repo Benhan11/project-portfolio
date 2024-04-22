@@ -30,8 +30,13 @@ function HomePage() {
                         {snippetData.content.map(snippet => 
                             <ProjectSnippet key={snippet.projectId} snippet={snippet}/>
                         )}
-                        <p className="text-slate-400 text-sm pt-6 flex justify-center">
-                            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Icons provided by <IconWrapper icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
+                        <p className="flex justify-center text-slate-400 text-sm pt-6">
+                            <span>
+                                Icons provided by&nbsp;
+                                <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
+                                &nbsp;and&nbsp;
+                                <a href="https://boxicons.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['boxiconsIcon']} /> Boxicons <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
+                            </span>
                         </p>
                     </div>
                 </div>

@@ -82,9 +82,9 @@
             "dataSections": [],
             "tags": [
                 {
-                    "name": "",
-                    "color": "",
-                    "iconName": ""
+                    "name": "Python",
+                    "color": "red",
+                    "iconName": "pythonIcon"
                 }
             ]
         },
@@ -95,18 +95,18 @@
             "tags": [
                 {
                     "name": "React",
-                    "color": "",
-                    "iconName": ""
+                    "color": "cyan",
+                    "iconName": "reactIcon"
                 },
                 {
                     "name": "TypeScript",
-                    "color": "sky",
+                    "color": "blue",
                     "iconName": "typescriptIcon"
                 },
                 {
                     "name": "Tailwind",
-                    "color": "",
-                    "iconName": ""
+                    "color": "sky",
+                    "iconName": "tailwindIcon"
                 },
                 {
                     "name": "HTML/CSS",
