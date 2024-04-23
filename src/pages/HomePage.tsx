@@ -33,9 +33,9 @@ function HomePage() {
                         <p className="flex justify-center text-slate-400 text-sm pt-6">
                             <span>
                                 Icons provided by&nbsp;
-                                <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
+                                <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4" /></a>
                                 &nbsp;and&nbsp;
-                                <a href="https://boxicons.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['boxiconsIcon']} /> Boxicons <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" /></a>
+                                <a href="https://boxicons.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['boxiconsIcon']} /> Boxicons<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4 right-1" /></a>
                             </span>
                         </p>
                     </div>
