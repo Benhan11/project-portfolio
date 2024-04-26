@@ -1,5 +1,7 @@
 import ProjectSnippet from 'components/ProjectSnippet';
 import IconWrapper from 'components/IconWrapper';
+import Footer from 'components/Footer';
+
 import snippetData from 'assets/project_snippet_data.json';
 import icons from 'assets/images/icons';
 
@@ -26,21 +28,14 @@ function HomePage() {
                             </p>
                         </div>
                     </div>
-                    <div className="lg:w-1/2 lg:py-24">
+                    <div className="lg:w-1/2 lg:pt-24">
                         {snippetData.content.map(snippet => 
                             <ProjectSnippet key={snippet.projectId} snippet={snippet}/>
                         )}
-                        <p className="flex justify-center text-slate-400 text-sm pt-6">
-                            <span>
-                                Icons provided by&nbsp;
-                                <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['fontAwesomeIcon']} color="DodgerBlue" /> Font Awesome<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4" /></a>
-                                &nbsp;and&nbsp;
-                                <a href="https://boxicons.com/" target="_blank" rel="noopener noreferrer"><IconWrapper icon={icons['boxiconsIcon']} /> Boxicons<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4 right-1" /></a>
-                            </span>
-                        </p>
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

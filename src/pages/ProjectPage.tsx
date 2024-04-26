@@ -2,6 +2,7 @@ import { useRef, createRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ProjectTag from 'components/ProjectTag';
 import IconWrapper from 'components/IconWrapper';
+import Footer from 'components/Footer';
 import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
@@ -47,9 +48,7 @@ function ProjectPage() {
                     </div>
                 )}
             </div>
-            <div className="border h-32 mt-20">
-                Footer
-            </div>
+            <Footer />
         </div>
     );
 }
