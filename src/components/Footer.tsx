@@ -4,7 +4,7 @@ import icons from 'assets/images/icons';
 
 function Footer() {
     return (
-        <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24 flex flex-row items-center justify-between h-32 mt-10 space-x-36">
+        <div className="mx-auto max-w-screen-xl flex flex-row items-center justify-between h-32 px-6 md:px-12 lg:px-24 mt-10 space-x-36">
             <div className="flex flex-col items-start text-slate-400 text-sm">
                 <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer">
                     <IconWrapper icon={icons['linkedinIcon']} color="DodgerBlue" />&nbsp;Benjamin Hansson

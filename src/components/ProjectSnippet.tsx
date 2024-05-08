@@ -23,7 +23,7 @@ function ProjectSnippet({ snippet }: SnippetProps) {
             {snippet.imageName !== '' && 
                 <div className="flex-none w-32">
                     <div className="flex flex-row justify-center">
-                        <img src={images[snippet.imageName]} className="mt-1 h-auto max-w-full max-h-32 rounded" />
+                        <img src={images[snippet.imageName]} className="mt-1 h-auto max-w-full max-h-32 rounded border border-slate-600 shadow-lg" />
                     </div>
                 </div>
             }

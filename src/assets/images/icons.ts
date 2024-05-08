@@ -2,6 +2,7 @@
 import boxiconsIcon from 'assets/images/manual-icons/boxiconsIcon.svg';
 import typescriptIcon from 'assets/images/manual-icons/typescriptIcon.svg';
 import tailwindIcon from 'assets/images/manual-icons/tailwindIcon.svg';
+import flaskIcon from 'assets/images/manual-icons/flaskIcon.svg'
 
 
 /* Font awesome icons, represented as type IconProp */
@@ -15,6 +16,7 @@ import {
     faPython as pythonIcon,
     faHtml5 as html5Icon,
     faReact as reactIcon,
+    faDocker as dockerIcon,
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -31,6 +33,9 @@ type IconsType = {
 
 
 const icons: IconsType = {
+    opensNewPageBoxIcon,
+    opensNewPageArrowIcon,
+    backIcon,
     fontAwesomeIcon,
     boxiconsIcon,
     githubIcon,
@@ -43,9 +48,8 @@ const icons: IconsType = {
     reactIcon,
     typescriptIcon,
     tailwindIcon,
-    opensNewPageBoxIcon,
-    opensNewPageArrowIcon,
-    backIcon,
+    dockerIcon,
+    flaskIcon,
 };
 
 
