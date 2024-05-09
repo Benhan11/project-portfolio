@@ -2,7 +2,8 @@
 import boxiconsIcon from 'assets/images/manual-icons/boxiconsIcon.svg';
 import typescriptIcon from 'assets/images/manual-icons/typescriptIcon.svg';
 import tailwindIcon from 'assets/images/manual-icons/tailwindIcon.svg';
-import flaskIcon from 'assets/images/manual-icons/flaskIcon.svg'
+import flaskIcon from 'assets/images/manual-icons/flaskIcon.svg';
+import jinjaIcon from 'assets/images/manual-icons/jinjaIcon.svg';
 
 
 /* Font awesome icons, represented as type IconProp */
@@ -50,6 +51,7 @@ const icons: IconsType = {
     tailwindIcon,
     dockerIcon,
     flaskIcon,
+    jinjaIcon,
 };
 
 

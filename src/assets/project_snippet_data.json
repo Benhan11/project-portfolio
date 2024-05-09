@@ -2,25 +2,25 @@
     "content": [
         {
             "title": "Project portfolio",
-            "description": "Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "description": "This web app, which you are currently visting, was built to showcase some of my personal developer projects. From deisgning modern web-apps to color space conversion, and all therein.",
             "imageName": "portfolioSnippetImage",
             "projectId": "project-portfolio"
         },
         {
             "title": "Youtube playlist saver",
-            "description": "Youtube Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "description": "An intuitive web app built with JavaScript, Node, and Express. Allows for easy backup of the user's playlists, utilizing the Google and Youtube Data APIs, featuring clean and readable code.",
             "imageName": "youtubeSnippetImage",
             "projectId": "youtube-playlist-saver"
         },
         {
             "title": "Spotify playlist saver",
-            "description": "Spotify Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "description": "A Python-built web app utilizing Flask and Jinja. Gathers user playlists, leveraging the Spotify API, and allows for their backup. Includes documentation, in and out of code, and Docker setup.",
             "imageName": "spotifySnippetImage",
             "projectId": "spotify-playlist-saver"
         },
         {
             "title": "Hue lamp app",
-            "description": "Hue Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "description": "This GUI app was built using Python's Tkinter module. It serves as an interface to control a HUE lamp through a local HUE Bridge API. I delved into implemention of color space conversions.",
             "imageName": "hueSnippetImage",
             "projectId": "hue-lamp-app"
         }
