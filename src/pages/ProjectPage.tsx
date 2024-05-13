@@ -19,31 +19,32 @@ function ProjectPage() {
 
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
-            <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
-                <div className="lg:py-20 md:py-12 sm:py-6">
-                    <div className="mb-3">
+            <div className="mx-auto max-w-screen-xl lg:px-24 md:px-12 px-6">
+                <div className="lg:py-20 md:py-12 pt-6 pb-16">
+                    <div className="sm:mb-3 mb-8">
                         <Link to="/"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
                     </div>
                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-2">
-                        <div>{project.title}</div>
-                        <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
+                        <div>{project.title}<span className="whitespace-nowrap">&nbsp;<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-4 left-8" /></span></div>
                     </a>
-                    <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5">
+                    <div className="flex flex-wrap max-w-80 pt-3 gap-y-1.5 sm:my-0 mt-2">
                         {project.tags.map(tag => 
                             <ProjectTag key={tag.name} data={tag}/>
                         )}
                     </div>
                 </div>
                 {project.dataSections.map((section, index) => 
-                    <div key={index} ref={sectionsRef.current[index]} className={`lg:flex lg:justify-between pb-36 transition-opacity ease-in duration-200 ${isVisibleArray[index] ? "opacity-100" : "opacity-30"}`}>
-                        <div className="lg:w-1/2 flex items-center">
+                    <div key={index} ref={sectionsRef.current[index]} className={`md:flex md:justify-between md:space-x-12 pb-36 sm:transition-opacity sm:ease-in sm:duration-200 ${isVisibleArray[index] ? "sm:opacity-100" : "sm:opacity-30"}`}>
+                        <div className="lg:w-1/2 md:w-2/3 flex items-center">
                             <div>
-                                <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">{section.title}</a><br/>
+                                <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text sm:pb-0 pb-2">{section.title}</a><br/>
                                 {section.text}
                             </div>
                         </div>
-                        <div className="flex flex-row lg:w-1/2 pt-10 justify-end items-center">
-                            <img src={images[section.imageName]} className="shadow-lg max-w-full max-h-96 rounded" />
+                        <div className="flex flex-row lg:w-1/2 md:w-1/3 w-full pt-10">
+                            <div className="flex w-full md:justify-end justify-center items-center">
+                                <img src={images[section.imageName]} className="max-w-full md:max-h-96 sm:max-h-64 max-h-48 border-2 border-slate-600 rounded shadow-2xl" />
+                            </div>
                         </div>
                     </div>
                 )}
