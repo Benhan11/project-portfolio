@@ -33,21 +33,23 @@ function ProjectPage() {
                         )}
                     </div>
                 </div>
-                {project.dataSections.map((section, index) => 
-                    <div key={index} ref={sectionsRef.current[index]} className={`md:flex md:justify-between md:space-x-12 pb-36 sm:transition-opacity sm:ease-in sm:duration-200 ${isVisibleArray[index] ? "sm:opacity-100" : "sm:opacity-30"}`}>
-                        <div className="md:w-1/2 flex items-center">
-                            <div>
-                                <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text sm:pb-0 pb-2">{section.title}</a><br/>
-                                {section.text}
+                <div className="space-y-40">
+                    {project.dataSections.map((section, index) => 
+                        <div key={index} ref={sectionsRef.current[index]} className={`md:flex md:justify-between md:h-96 min-h md:space-x-12 md:space-y-0 space-y-8 sm:transition-opacity sm:ease-in sm:duration-200 ${isVisibleArray[index] ? "sm:opacity-100" : "sm:opacity-30"}`}>
+                            <div className="md:w-1/2 flex items-center">
+                                <div>
+                                    <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text sm:pb-0 pb-2">{section.title}</a><br/>
+                                    {section.text}
+                                </div>
+                            </div>
+                            <div className="flex flex-row md:w-1/2 w-full">
+                                <div className="flex w-full md:justify-end justify-center items-center">
+                                    <img src={images[section.imageName]} className="max-w-full max-h-96 border-2 border-slate-600 rounded shadow-2xl" />
+                                </div>
                             </div>
                         </div>
-                        <div className="flex flex-row md:w-1/2 w-full pt-10">
-                            <div className="flex w-full md:justify-end justify-center items-center">
-                                <img src={images[section.imageName]} className="max-w-full max-h-96 border-2 border-slate-600 rounded shadow-2xl" />
-                            </div>
-                        </div>
-                    </div>
-                )}
+                    )}
+                </div>
             </div>
             <Footer />
         </div>
