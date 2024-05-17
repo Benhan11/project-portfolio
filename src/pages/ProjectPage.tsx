@@ -44,7 +44,7 @@ function ProjectPage() {
                             </div>
                             <div className="flex flex-row md:w-1/2 w-full">
                                 <div className="flex w-full justify-center items-center">
-                                    <img src={images[section.imageName]} className="max-w-full max-h-96 border-2 border-slate-600 rounded shadow-2xl" />
+                                    <img src={images[section.imageName]} className="max-h-96 sm:max-w-96 max-w-full border-2 border-slate-600 rounded shadow-2xl" />
                                 </div>
                             </div>
                         </div>
