@@ -24,6 +24,7 @@ import {
     faArrowUpRightFromSquare as opensNewPageBoxIcon,
     faArrowUp as opensNewPageArrowIcon,
     faChevronLeft as backIcon,
+    faCircleChevronUp as upIcon,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
@@ -37,6 +38,7 @@ const icons: IconsType = {
     opensNewPageBoxIcon,
     opensNewPageArrowIcon,
     backIcon,
+    upIcon,
     fontAwesomeIcon,
     boxiconsIcon,
     githubIcon,

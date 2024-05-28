@@ -1,8 +1,9 @@
-import { useRef, createRef } from 'react';
+import { useRef, createRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ProjectTag from 'components/ProjectTag';
 import IconWrapper from 'components/IconWrapper';
 import Footer from 'components/Footer';
+import ScrollButton from 'components/ScrollButton';
 import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
@@ -16,6 +17,10 @@ function ProjectPage() {
 
     const sectionsRef = useRef<Array<React.RefObject<HTMLDivElement>>>(project.dataSections.map(() => createRef()));
     const isVisibleArray = useIsVisible({ elements: sectionsRef.current });
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
@@ -51,7 +56,8 @@ function ProjectPage() {
                     )}
                 </div>
             </div>
-            <Footer />
+            <ScrollButton />
+            <Footer isProjectPage={true} />
         </div>
     );
 }

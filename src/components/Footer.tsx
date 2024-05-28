@@ -2,9 +2,14 @@ import IconWrapper from "components/IconWrapper";
 import icons from 'assets/images/icons';
 
 
-function Footer() {
+type Props = {
+    isProjectPage?: boolean;
+};
+
+function Footer(props?: Props) {
     return (
-        <div className="mx-auto max-w-screen-xl flex md:flex-row flex-col md:items-center md:justify-between h-32 lg:px-24 md:px-12 sm:px-24 px-6 mt-10 md:space-x-24 space-y-4">
+        <div className={'mx-auto max-w-screen-xl flex md:flex-row flex-col md:items-center md:justify-between h-32 mt-10 md:space-x-24 space-y-4' + ' ' +
+                        (props && props.isProjectPage ? 'lg:px-24 md:ps-12 md:pe-20 sm:px-24 px-6' : 'lg:px-24 md:px-12 px-6')}>
             <div className="flex flex-col md:items-start text-slate-400 text-sm">
                 <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer">
                     <IconWrapper icon={icons['linkedinIcon']} color="DodgerBlue" />&nbsp;Benjamin Hansson

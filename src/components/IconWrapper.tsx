@@ -12,7 +12,6 @@ interface IconWrapperProps {
 
 
 function IconWrapper({ icon, className, transform, size, color }: IconWrapperProps) {
-    console.log(size, typeof size);  
     if (typeof icon === "string") {
         return (
             <img src={icon} className={className + " " + "-mt-1 inline"} />
