@@ -7,7 +7,11 @@ module.exports = {
     fontFamily: {
       'mono': ['Cascadia Code']
     },
-    extend: {},
+    extend: {
+      colors: {
+        heat: '#B0A99F'
+      }
+    },
   },
   plugins: [],
   safelist: [

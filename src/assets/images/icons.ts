@@ -31,7 +31,7 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 type IconsType = {
     [key: string]: IconProp | string;
-}
+};
 
 
 const icons: IconsType = {
@@ -39,6 +39,7 @@ const icons: IconsType = {
     opensNewPageArrowIcon,
     backIcon,
     upIcon,
+
     fontAwesomeIcon,
     boxiconsIcon,
     githubIcon,

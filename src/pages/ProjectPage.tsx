@@ -23,7 +23,7 @@ function ProjectPage() {
     }, []);
 
     return (
-        <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
+        <div className="min-h-screen font-mono text-heat bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl lg:px-24 md:px-12 sm:px-24 px-6 pb-20">
                 <div className="lg:py-20 md:py-12 pt-6 pb-16">
                     <div className="sm:mb-3 mb-8">

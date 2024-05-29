@@ -8,7 +8,7 @@ import icons from 'assets/images/icons';
 
 function HomePage() {
     return (
-        <div className="min-h-screen font-mono text-slate-400 bg-gradient-to-r from-black via-violet-950 to-black">
+        <div className="min-h-screen font-mono text-heat !bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:flex lg:justify-between lg:space-y-0 space-y-4">
                     <div className="lg:flex lg:flex-col lg:sticky lg:top-0 lg:max-h-screen lg:w-1/2 lg:py-24 md:py-12 pt-6 pb-12">
