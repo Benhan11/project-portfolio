@@ -16,6 +16,9 @@ type SnippetType = {
 }
 
 
+/**
+ * Builds and returns a project snippet as specified by the provided snippet data.
+ */
 function ProjectSnippet({ snippet }: SnippetProps) {
     return (
         <Link to={`/project/${snippet.projectId}`}>

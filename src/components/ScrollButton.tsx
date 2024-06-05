@@ -3,6 +3,10 @@ import IconWrapper from 'components/IconWrapper';
 import icons from 'assets/images/icons';
 
 
+/**
+ * Builds and returns a button that takes the user back to the top of the page.
+ * Only renders at a certain scroll threshold.
+ */
 function ScrollButton() {
     const [visible, setVisible] = useState(false);
 

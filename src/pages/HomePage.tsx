@@ -6,6 +6,9 @@ import snippetData from 'assets/project_snippet_data.json';
 import icons from 'assets/images/icons';
 
 
+/**
+ * Builds the homepage component.
+ */
 function HomePage() {
     return (
         <div className="min-h-screen font-mono text-heat bg-gradient-to-r from-black via-violet-950 to-black">

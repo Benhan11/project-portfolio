@@ -11,6 +11,11 @@ import icons from 'assets/images/icons';
 import images from 'assets/images/images';
 
 
+/**
+ * Builds and populates the project page component with the specified project's 
+ * data, gathered from the project data file. The project id parameter is 
+ * gathered from the URL with the useParams hook. 
+ */
 function ProjectPage() {
     const { projectId } = useParams<{ projectId: string }>();
     let project = projectData.content[projectId as keyof typeof projectData.content];

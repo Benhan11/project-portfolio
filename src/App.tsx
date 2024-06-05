@@ -3,6 +3,9 @@ import HomePage from 'pages/HomePage';
 import ProjectPage from 'pages/ProjectPage';
 
 
+/**
+ * Root component of the application. Contains routing setup.
+ */
 function App() {
     return (
         <BrowserRouter>

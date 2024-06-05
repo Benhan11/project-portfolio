@@ -6,6 +6,11 @@ type Props = {
     isProjectPage?: boolean;
 };
 
+
+/**
+ * Builds and renders a footer. Takes into consideration what page is rendering
+ * the footer, necessary due to different screen widths.
+ */
 function Footer(props?: Props) {
     return (
         <div className={'mx-auto max-w-screen-xl flex md:flex-row flex-col md:items-center md:justify-between h-32 mt-10 md:space-x-24 space-y-4' + ' ' +

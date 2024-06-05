@@ -13,6 +13,9 @@ type TagType = {
 }
 
 
+/**
+ * Builds and returns a project tag as specified by the provided tag data.
+ */
 function ProjectTag({ data }: TagProps) {
     return (
         <span className={`flex-none border rounded-full border-${data.color}-500 bg-${data.color}-200/5 text-${data.color}-500 px-3 pt-1 pb-0.5 me-1`}>

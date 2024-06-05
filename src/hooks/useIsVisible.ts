@@ -6,6 +6,16 @@ interface HookProps {
 }
 
 
+/**
+ * Hook that tracks visiblity status of elements provided. Does so utilizing the
+ * IntersectionObserver interface.
+ * 
+ * @param props - Hook properties.
+ * @param props.elements - The array of refs for the elements to track visibility 
+ * status for.
+ * @returns {Array<boolean>} - An array of booleans representing visibility of 
+ * elements.
+ */
 function useIsVisible({ elements }: HookProps) {
     const [ isVisibleArray, setIsVisibleArray ] = useState<Array<boolean>>([]);
     

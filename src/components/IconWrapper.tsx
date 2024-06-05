@@ -11,6 +11,14 @@ interface IconWrapperProps {
 }
 
 
+/**
+ * Wrapper class for handling icons. Simplifies adding icons as they may be from
+ * a font library or manually added. This component generalizes adding of icons, 
+ * necessary for dynamic rendering of icons. Also allowing for customization, 
+ * specified by the provided props.
+ *  
+ * @returns An icon, either a normal HTML <img /> or a <FontAwesomeIcon />.
+ */
 function IconWrapper({ icon, className, transform, size, color }: IconWrapperProps) {
     if (typeof icon === "string") {
         return (
