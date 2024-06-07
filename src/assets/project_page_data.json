@@ -1,23 +1,101 @@
 {
     "content": {
+        "project-portfolio": {
+            "url": "https://github.com/Benhan11/project-portfolio",
+            "title": "Project portfolio",
+            "dataSections": [
+                {
+                    "title": "Overview",
+                    "text": "This web app was built to showcase some of my personal projects, this app included. It was built in such a way that makes it trivially easy to add new projects to show.",
+                    "imageName": "portfolioSnippet"
+                },
+                {
+                    "title": "Stack",
+                    "text": "This is a React app utilizing TypeScript. I chose TypeScript due to its static typing, reducing runtime errors and providing clear and readable code. Tailwind's extensive utility class system has been used for all styling, allowing for dynamic and responsive design.",
+                    "imageName": "portfolioStack"
+                },
+                {
+                    "title": "Dynamic rendering of data",
+                    "text": "This project contains very few pages, but includes several projects. This was achieved by dynamically loading data from a file. This functionality sits at the core of this application and results in two great features, namely, vastly reduced file structure clutter, and an incredibly easy way to add new project data.",
+                    "imageName": "portfolioDynamic"
+                },
+                {
+                    "title": "Core data files",
+                    "text": "The project page and the project previews on the homepage both have their data rendered dynamically, from the two core data files. The results of this design mean that the addition of new projects require NO coding whatsoever, only the actual writing of data to the two JSON files.",
+                    "imageName": "portfolioFile"
+                },
+                {
+                    "title": "Image and Icon scripts",
+                    "text": "Accompanying the dynamic design of projects, two similarly dynamic scripts have been added for image and icon additions. The images/icons to be rendered are specified by name in the same data files, requiring no coding, and avoiding import clutter. Without these scripts components would not be able to dynamically load images/icons, a vital function.",
+                    "imageName": "portfolioImages"
+                },
+                {
+                    "title": "Documentation",
+                    "text": "TypeScript enables simple code documentation. The built in types and interfaces make full JSDoc comments redundant, allowing for concise, descriptive component descriptions. A ReadMe also exists, describing the application and how to use the image/icon scripts.",
+                    "imageName": "portfolioDocumentation"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "React",
+                    "color": "cyan",
+                    "iconName": "reactIcon"
+                },
+                {
+                    "name": "TypeScript",
+                    "color": "blue",
+                    "iconName": "typescriptIcon"
+                },
+                {
+                    "name": "Tailwind",
+                    "color": "sky",
+                    "iconName": "tailwindIcon"
+                },
+                {
+                    "name": "HTML/CSS",
+                    "color": "orange",
+                    "iconName": "html5Icon"
+                }
+            ]
+        },
         "youtube-playlist-saver": {
             "url": "https://github.com/Benhan11/youtube-playlist-saver",
             "title": "Youtube playlist saver",
             "dataSections": [
                 {
-                    "title": "Medium subtitle",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-                    "imageName": "youtubeSnippetImage"
+                    "title": "Overview",
+                    "text": "I created this program for the purpose of automating the otherwise tedious process of backing up Youtube playlists manually. In short, this program fetches, and saves playlists to an organized and readable JSON format, suitable for further development.",
+                    "imageName": "youtubeSnippet"
                 },
                 {
-                    "title": "Short",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-                    "imageName": "youtubeSnippetImage"
+                    "title": "Stack",
+                    "text": "The app runs on Node, making requests to the Google and Youtube DATA API, filtering and serving appropriate webpage responses using Express. EJS and Bootstrap were used for dynamic data rendering and styling, I forewent the idea of using a more developed library such as React due to the small scale of the project.",
+                    "imageName": "youtubeStack"
                 },
                 {
-                    "title": "Long",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-                    "imageName": "youtubeSnippetImage"
+                    "title": "Migration to a Web App",
+                    "text": "In an earlier stage the program simply backed up all playlists specified by list ids as command arguments, a tedious and ugly process. I reworked the program into an intuitive web app that allowed for control and visual feedback. Using Docker, it's now even easier to use.",
+                    "imageName": "youtubeOld"
+                },
+                {
+                    "title": "OAuth2 and Google API",
+                    "text": "The application uses authorization through OAuth2, and the subsequently generated access token, as required by the Youtube Data API.",
+                    "imageName": "youtubeAuth"
+                },
+                {
+                    "title": "Youtube Data API",
+                    "text": "The program fetches the names of all playlists, after selection further requests are made to fetch the selected playlists' items, recursively for each page of items. The playlists are saved to separate JSON files and a summary page is served. Fetch names, Filter, Fetch items, Save.",
+                    "imageName": "youtubeApi"
+                },
+                {
+                    "title": "Asynchronicity",
+                    "text": "Due to the nature of web requests, the program functions asynchronously. To ensure an orderly flow for the user, the program relies on callbacks and event-driven programming.",
+                    "imageName": "youtubeCallback"
+                },
+                {
+                    "title": "Documentation",
+                    "text": "The source code has been thoroughly documented following JSDoc conventions and the project includes a README, describing the application and its usage. Additional Docker instructions have also been added.",
+                    "imageName": "youtubeDocumentation"
                 }
             ],
             "tags": [
@@ -27,7 +105,7 @@
                     "iconName": "jsIcon"
                 },
                 {
-                    "name": "Node.js",
+                    "name": "Node",
                     "color": "lime",
                     "iconName": "nodeJsIcon"
                 },
@@ -50,6 +128,79 @@
                     "name": "HTML/CSS",
                     "color": "orange",
                     "iconName": "html5Icon"
+                },
+                {
+                    "name": "Docker",
+                    "color": "blue",
+                    "iconName": "dockerIcon"
+                }
+            ]
+        },
+        "spotify-playlist-saver": {
+            "url": "https://github.com/Benhan11/spotify-playlist-saver",
+            "title": "Spotify playlist saver",
+            "dataSections": [
+                {
+                    "title": "Overview",
+                    "text": "This app was built for the purpose of backing up Spotify playlists. Through the use of the Spotify API, this program fetches user associated playlists, their tracks, and saves them locally as JSON files, suitable for future use.",
+                    "imageName": "spotifyApp"
+                },
+                {
+                    "title": "Stack",
+                    "text": "The app runs on the Python Flask web framework, serving dynamic pages with the Jinja template engine, with accompanying Bootstrap styling. Data is fetched from the Spotify API, filtered, and served. Despite Flask explicitly stating itself not suited for production level, I used it due to the small scale of the project.",
+                    "imageName": "spotifyStack"
+                },
+                {
+                    "title": "Migration to a Web App",
+                    "text": "This program was based off a semi-functioning script I made years ago, where I had to manually get a token from the web dev portal, a very tedious authorization process. The program is now an intuitive web app that handles all authorization behind the scenes. Using Docker, it's now even easier to get running.",
+                    "imageName": "spotifyOld"
+                },
+                {
+                    "title": "OAuth2",
+                    "text": "API calls are authorized through a standard OAuth2 handshake, providing an access token on success.",
+                    "imageName": "spotifyAuth"
+                },
+                {
+                    "title": "Spotify API",
+                    "text": "The user's profile and playlists (excluding tracks) are fetched, filtered, and served. After which, when the user clicks the backup button, each playlist's tracks are fetched and saved to a JSON file. The user is then alerted of the successfull backup.",
+                    "imageName": "spotifyApi"
+                },
+                {
+                    "title": "Documentation",
+                    "text": "The source code has been thoroughly documented with Docstrings, accompanied by an overarching README, describing the application and its usage. Additional Docker instructions have also been added.",
+                    "imageName": "spotifyDocumentation"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Python",
+                    "color": "red",
+                    "iconName": "pythonIcon"
+                },
+                {
+                    "name": "Flask",
+                    "color": "white",
+                    "iconName": "flaskIcon"
+                },
+                {
+                    "name": "Jinja",
+                    "color": "gray",
+                    "iconName": "jinjaIcon"
+                },
+                {
+                    "name": "Bootstrap",
+                    "color": "sky",
+                    "iconName": "bootstrapIcon"
+                },
+                {
+                    "name": "HTML/CSS",
+                    "color": "orange",
+                    "iconName": "html5Icon"
+                },
+                {
+                    "name": "Docker",
+                    "color": "blue",
+                    "iconName": "dockerIcon"
                 }
             ]
         },
@@ -58,9 +209,39 @@
             "title": "Hue lamp app",
             "dataSections": [
                 {
-                    "title": "Subtitle",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-                    "imageName": "hueSnippetImage"
+                    "title": "Overview",
+                    "text": "This application allows for control of a HUE lamp through a neat Tkinter GUI. Changing color, brightness, and saving these values as modifiable palettes make up the core of the application. The HUE Bridge API (local API) facilitates communication with the lamp.",
+                    "imageName": "hueLights"
+                },
+                {
+                    "title": "GUI",
+                    "text": "The GUI is made up of elements such as buttons, images, text fields, and most importantly, widgets. These widgets were broken into separate functions, improving readability, but more importantly, allowing for events to trigger widget rendering multiple times during exectuion. This enabled dynamic generation, whereas most elements are rendered only on app start.",
+                    "imageName": "hueSnippet"
+                },
+                {
+                    "title": "Event-driven",
+                    "text": "The creation and binding of events was leveraged to dynamically render widgets. The palette list in particular needed to be regenerated each time a palette was saved/modified. Instead of rendering with the static elements, the generating function was bound as a callback to an event, triggered whenever needed, e.g. on a new palette addition.",
+                    "imageName": "hueEvents"
+                },
+                {
+                    "title": "API",
+                    "text": "Communication with the HUE Bridge functions like any other API, making requests and handling responses. Rate limiting was added per recommendation.",
+                    "imageName": "hueApi"
+                },
+                {
+                    "title": "Color theory",
+                    "text": "Practical application of color theory was one of the main challenges of this project. Due to the nature of this topic, testing had to be done visually. I tried several different color conversion methods for 'xy' (HUE lamp) to RGB color space until I found one with good approximation.",
+                    "imageName": "hueColorTheory"
+                },
+                {
+                    "title": "Utilities",
+                    "text": "Apart from color conversion and API communication some additional image manipulation utilities were created. These utilities allowed for modification of image color and size, important for palette preview colors.",
+                    "imageName": "hueUtilities"
+                },
+                {
+                    "title": "Documentation",
+                    "text": "Apart from the project README describing the app and explaining usage, documentation consists of descriptive function names and in-code comments. For this specific project I utilized the 'Better Comments' (by Aaron Bond) vs-code extension.",
+                    "imageName": "hueDocumentation"
                 }
             ],
             "tags": [
@@ -73,45 +254,6 @@
                     "name": "Tkinter",
                     "color": "amber",
                     "iconName": "pythonIcon"
-                }
-            ]
-        },
-        "spotify-playlist-saver": {
-            "url": "",
-            "title": "Spotify playlist saver",
-            "dataSections": [],
-            "tags": [
-                {
-                    "name": "Python",
-                    "color": "red",
-                    "iconName": "pythonIcon"
-                }
-            ]
-        },
-        "project-portfolio": {
-            "url": "https://github.com/Benhan11/portfolio-app",
-            "title": "Project portfolio",
-            "dataSections": [],
-            "tags": [
-                {
-                    "name": "React",
-                    "color": "cyan",
-                    "iconName": "reactIcon"
-                },
-                {
-                    "name": "TypeScript",
-                    "color": "blue",
-                    "iconName": "typescriptIcon"
-                },
-                {
-                    "name": "Tailwind",
-                    "color": "sky",
-                    "iconName": "tailwindIcon"
-                },
-                {
-                    "name": "HTML/CSS",
-                    "color": "orange",
-                    "iconName": "html5Icon"
                 }
             ]
         }

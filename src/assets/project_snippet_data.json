@@ -2,26 +2,26 @@
     "content": [
         {
             "title": "Project portfolio",
-            "description": "This web app, which you are currently visting, was built to showcase some of my personal developer projects. From deisgning modern web-apps to color space conversion, and all therein.",
-            "imageName": "portfolioSnippetImage",
+            "description": "This web app, which you are currently visting, was built to showcase some of my personal developer projects. From designing modern web-apps to color space conversion, and all therein.",
+            "imageName": "portfolioSnippet",
             "projectId": "project-portfolio"
         },
         {
             "title": "Youtube playlist saver",
             "description": "An intuitive web app built with JavaScript, Node, and Express. Allows for easy backup of the user's playlists, utilizing the Google and Youtube Data APIs, featuring clean and readable code.",
-            "imageName": "youtubeSnippetImage",
+            "imageName": "youtubeSnippet",
             "projectId": "youtube-playlist-saver"
         },
         {
             "title": "Spotify playlist saver",
             "description": "A Python-built web app utilizing Flask and Jinja. Gathers user playlists, leveraging the Spotify API, and allows for their backup. Includes documentation, in and out of code, and Docker setup.",
-            "imageName": "spotifySnippetImage",
+            "imageName": "spotifySnippet",
             "projectId": "spotify-playlist-saver"
         },
         {
             "title": "Hue lamp app",
             "description": "This GUI app was built using Python's Tkinter module. It serves as an interface to control a HUE lamp through a local HUE Bridge API. I delved into implemention of color space conversions.",
-            "imageName": "hueSnippetImage",
+            "imageName": "hueSnippet",
             "projectId": "hue-lamp-app"
         }
     ]
