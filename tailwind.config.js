@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'mono': ['Cascadia Code']
+      'mono': ['Cascadia Code', 'monospace']
     },
     extend: {
       colors: {
