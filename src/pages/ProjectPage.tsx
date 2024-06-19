@@ -32,7 +32,7 @@ function ProjectPage() {
             <div className="mx-auto max-w-screen-xl lg:px-24 md:px-12 sm:px-24 px-6 pb-20">
                 <div className="lg:py-20 md:py-12 pt-6 pb-16">
                     <div className="sm:mb-3 mb-8">
-                        <Link to="/"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
+                        <Link to="/" className="text-base"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
                     </div>
                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-2">
                         <div>{project.title}<span className="whitespace-nowrap">&nbsp;<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-4 left-8" /></span></div>
@@ -49,7 +49,7 @@ function ProjectPage() {
                             <div className="md:w-1/2 flex items-center">
                                 <div>
                                     <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text sm:pb-0 pb-2">{section.title}</a><br/>
-                                    {section.text}
+                                    <span className="text-base">{section.text}</span>
                                 </div>
                             </div>
                             <div className="flex flex-row md:w-1/2 w-full">

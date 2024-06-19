@@ -31,11 +31,11 @@ function ProjectSnippet({ snippet }: SnippetProps) {
                 </div>
                 <div className="space-y-2">
                     <div className="sm:flex hidden sm:justify-between">
-                        <h2 className="text-slate-100">{snippet.title}</h2>
+                        <h2 className="text-slate-100 text-base">{snippet.title}</h2>
                         <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" className="mt-1 text-slate-100" />
                     </div>
-                    <h2 className="text-slate-100 block sm:hidden">{snippet.title}<span className="whitespace-nowrap">&nbsp;<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4 left-6" /></span></h2>
-                    <p>{snippet.description}</p>
+                    <h2 className="text-slate-100 text-base block sm:hidden">{snippet.title}<span className="whitespace-nowrap">&nbsp;<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4 left-6" /></span></h2>
+                    <p className="text-base">{snippet.description}</p>
                 </div>
             </div>
         </Link>
