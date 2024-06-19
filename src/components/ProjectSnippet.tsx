@@ -22,11 +22,11 @@ type SnippetType = {
 function ProjectSnippet({ snippet }: SnippetProps) {
     return (
         <Link to={`/project/${snippet.projectId}`}>
-            <div className="sm:flex sm:flex-row sm:bg-green-500/10 shadow-xl gap-x-10 sm:px-6 py-4 mb-12 sm:border border-b border-heat sm:rounded-md rounded
+            <div className="sm:flex sm:flex-row sm:bg-green-500/10 shadow-xl gap-x-10 sm:px-6 py-4 mb-12 sm:border border-b border-heat-dark sm:rounded-md rounded
                             transition ease-in-out delay-0 duration-200 hover:translate-y-1 sm:hover:scale-[1.01] sm:hover:bg-green-500/[0.175] hover:shadow-2xl">
                 <div className="sm:flex-none w-32 float-left">
                     <div className="flex flex-row justify-center sm:ps-0 sm:pb-0 pe-4 pb-0">
-                        <img src={images[snippet.imageName]} className="sm:mt-1 mt-3 h-auto max-w-full max-h-32 rounded border border-heat shadow-lg" />
+                        <img src={images[snippet.imageName]} className="sm:mt-1 mt-3 h-auto max-w-full max-h-32 rounded border border-heat-dark shadow-lg" />
                     </div>
                 </div>
                 <div className="space-y-2">

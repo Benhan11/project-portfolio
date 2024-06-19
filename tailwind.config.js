@@ -9,7 +9,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        heat: '#B0A99F'
+        heat: {
+          DEFAULT: '#D6CCBC',
+          dark: '#B0A99F'
+        }
+        
       }
     },
   },
