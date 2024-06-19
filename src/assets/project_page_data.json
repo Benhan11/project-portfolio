@@ -2,12 +2,12 @@
     "content": {
         "project-portfolio": {
             "url": "https://github.com/Benhan11/project-portfolio",
-            "title": "Project portfolio",
+            "title": "Portfolio design",
             "dataSections": [
                 {
                     "title": "Overview",
-                    "text": "This web app was built to showcase some of my personal projects, this app included. It was built in such a way that makes it trivially easy to add new projects to show.",
-                    "imageName": "portfolioSnippet"
+                    "text": "This web app was built to showcase some of my personal projects, this app included. It was built in a way that allows for trivially easy addition of new projects.",
+                    "imageName": "portfolioOverview"
                 },
                 {
                     "title": "Stack",

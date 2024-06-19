@@ -1,4 +1,5 @@
 import portfolioSnippet from 'assets/images/project-images/project-portfolio/snippet.png'
+import portfolioOverview from 'assets/images/project-images/project-portfolio/overview.png'
 import portfolioStack from 'assets/images/project-images/project-portfolio/stack.png'
 import portfolioDynamic from 'assets/images/project-images/project-portfolio/dynamic.svg'
 import portfolioFile from 'assets/images/project-images/project-portfolio/file.svg'
@@ -36,6 +37,7 @@ type ImagesType = {
 
 const images: ImagesType = {
     portfolioSnippet,
+    portfolioOverview,
     portfolioStack,
     portfolioDynamic,
     portfolioFile,

@@ -17,7 +17,7 @@ function HomePage() {
                     <div className="lg:flex lg:flex-col lg:sticky lg:top-0 lg:max-h-screen lg:w-1/2 lg:py-24 md:py-12 pt-6 pb-12">
                         <div>
                             <a href="https://github.com/Benhan11/project-portfolio" target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-1">
-                                <div>Project portfolio</div>
+                                <div>Portfolio</div>
                                 <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
                             </a>
                             <h2 className="text-lg">Benjamin Hansson</h2>

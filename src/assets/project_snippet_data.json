@@ -1,10 +1,10 @@
 {
     "content": [
         {
-            "title": "Project portfolio",
-            "description": "This web app, which you are currently visting, was built to showcase some of my personal developer projects. From designing modern web-apps to color space conversion, and all therein.",
-            "imageName": "portfolioSnippet",
-            "projectId": "project-portfolio"
+            "title": "Spotify playlist saver",
+            "description": "A Python-built web app utilizing Flask and Jinja. Gathers user playlists, leveraging the Spotify API, and allows for their backup. Includes documentation, in and out of code, and Docker setup.",
+            "imageName": "spotifySnippet",
+            "projectId": "spotify-playlist-saver"
         },
         {
             "title": "Youtube playlist saver",
@@ -13,10 +13,10 @@
             "projectId": "youtube-playlist-saver"
         },
         {
-            "title": "Spotify playlist saver",
-            "description": "A Python-built web app utilizing Flask and Jinja. Gathers user playlists, leveraging the Spotify API, and allows for their backup. Includes documentation, in and out of code, and Docker setup.",
-            "imageName": "spotifySnippet",
-            "projectId": "spotify-playlist-saver"
+            "title": "Project portfolio",
+            "description": "This web app, which you are currently visting, was built to showcase some of my personal developer projects. From designing modern web-apps to color space conversion, and all therein.",
+            "imageName": "portfolioSnippet",
+            "projectId": "project-portfolio"
         },
         {
             "title": "Hue lamp app",
