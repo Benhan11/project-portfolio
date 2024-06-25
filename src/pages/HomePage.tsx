@@ -11,7 +11,7 @@ import icons from 'assets/images/icons';
  */
 function HomePage() {
     return (
-        <div className="min-h-screen font-mono text-heat bg-gradient-to-r from-black via-violet-950 to-black">
+        <div className="min-h-screen font-mono text-slate-300 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
                 <div className="lg:flex lg:justify-between lg:space-y-0 space-y-4">
                     <div className="lg:flex lg:flex-col lg:sticky lg:top-0 lg:max-h-screen lg:w-1/2 lg:py-24 md:py-12 pt-6 pb-12">
@@ -23,7 +23,7 @@ function HomePage() {
                             <h2 className="text-lg">Benjamin Hansson</h2>
                             <div className="space-x-2 pt-2">
                                 <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500"><IconWrapper icon={icons['linkedinIcon']} size="xl" /></a>
-                                <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer" className="hover:text-white"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
+                                <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer" className="hover:text-slate-50"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
                             </div>
                             <p className="max-w-72 pt-16">
                                 <a className="text-lg font-bold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">Welcome!</a><br/>

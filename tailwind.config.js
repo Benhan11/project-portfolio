@@ -13,7 +13,6 @@ module.exports = {
           DEFAULT: '#D6CCBC',
           dark: '#B0A99F'
         }
-        
       }
     },
   },

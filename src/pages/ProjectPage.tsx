@@ -28,7 +28,7 @@ function ProjectPage() {
     }, []);
 
     return (
-        <div className="min-h-screen font-mono text-heat bg-gradient-to-r from-black via-violet-950 to-black">
+        <div className="min-h-screen font-mono text-slate-300 bg-gradient-to-r from-black via-violet-950 to-black">
             <div className="mx-auto max-w-screen-xl lg:px-24 md:px-12 sm:px-24 px-6 pb-20">
                 <div className="lg:py-20 md:py-12 pt-6 pb-16">
                     <div className="sm:mb-3 mb-8">
@@ -43,7 +43,7 @@ function ProjectPage() {
                         )}
                     </div>
                 </div>
-                <div className="space-y-40">
+                <div className="space-y-40 leading-7">
                     {project.dataSections.map((section, index) => 
                         <div key={index} ref={sectionsRef.current[index]} className={`md:flex md:h-[28rem] min-h md:space-x-12 md:space-y-0 space-y-8 sm:transition-opacity sm:ease-in sm:duration-200 ${isVisibleArray[index] ? "sm:opacity-100" : "sm:opacity-30"}`}>
                             <div className="md:w-1/2 flex items-center">
