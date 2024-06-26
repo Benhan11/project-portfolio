@@ -13,6 +13,10 @@ module.exports = {
           DEFAULT: '#D6CCBC',
           dark: '#B0A99F'
         }
+      },
+      dropShadow: {
+        'light': '0 1.2px 1.2px rgba(0, 0, 0, 0.25)',
+        'DEFAULT': '0 1.2px 1.2px rgba(0, 0, 0, 0.8)'
       }
     },
   },
