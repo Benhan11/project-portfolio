@@ -9,6 +9,7 @@ interface TagProps {
 type TagType = {
     name: string;
     color: string;
+    bgColor: string;
     iconName: string;
 }
 
@@ -18,7 +19,7 @@ type TagType = {
  */
 function ProjectTag({ data }: TagProps) {
     return (
-        <span className={`flex-none border rounded-full border-${data.color}-500 bg-${data.color}-200/5 text-${data.color}-500 text-base px-3 pt-1 pb-0.5 me-1`}>
+        <span className={`flex-none border drop-shadow rounded-full border-${data.color} bg-${data.bgColor} text-${data.color} text-base px-3 pt-1 pb-0.5 me-1`}>
             <IconWrapper icon={icons[data.iconName]} className="mb-0" /> {data.name}</span>
     );
 }

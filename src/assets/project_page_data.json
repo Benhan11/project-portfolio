@@ -38,22 +38,26 @@
             "tags": [
                 {
                     "name": "React",
-                    "color": "cyan",
+                    "color": "cyan-500",
+                    "bgColor": "cyan-950",
                     "iconName": "reactIcon"
                 },
                 {
                     "name": "TypeScript",
-                    "color": "blue",
+                    "color": "blue-500",
+                    "bgColor": "blue-950",
                     "iconName": "typescriptIcon"
                 },
                 {
                     "name": "Tailwind",
-                    "color": "sky",
+                    "color": "sky-500",
+                    "bgColor": "sky-950",
                     "iconName": "tailwindIcon"
                 },
                 {
                     "name": "HTML/CSS",
-                    "color": "orange",
+                    "color": "orange-500",
+                    "bgColor": "orange-950",
                     "iconName": "html5Icon"
                 }
             ]
@@ -101,37 +105,44 @@
             "tags": [
                 {
                     "name": "JavaScript",
-                    "color": "yellow",
+                    "color": "yellow-500",
+                    "bgColor": "yellow-950",
                     "iconName": "jsIcon"
                 },
                 {
                     "name": "Node",
-                    "color": "lime",
+                    "color": "lime-500",
+                    "bgColor": "lime-950",
                     "iconName": "nodeJsIcon"
                 },
                 {
                     "name": "Express",
-                    "color": "amber",
+                    "color": "amber-500",
+                    "bgColor": "amber-950",
                     "iconName": "jsIcon"
                 },
                 {
                     "name": "Bootstrap",
-                    "color": "sky",
+                    "color": "sky-500",
+                    "bgColor": "sky-950",
                     "iconName": "bootstrapIcon"
                 },
                 {
                     "name": "EJS",
-                    "color": "red",
+                    "color": "red-500",
+                    "bgColor": "red-950",
                     "iconName": "jsIcon"
                 },
                 {
                     "name": "HTML/CSS",
-                    "color": "orange",
+                    "color": "orange-500",
+                    "bgColor": "orange-950",
                     "iconName": "html5Icon"
                 },
                 {
                     "name": "Docker",
-                    "color": "blue",
+                    "color": "blue-500",
+                    "bgColor": "blue-950",
                     "iconName": "dockerIcon"
                 }
             ]
@@ -174,32 +185,38 @@
             "tags": [
                 {
                     "name": "Python",
-                    "color": "red",
+                    "color": "red-500",
+                    "bgColor": "red-950",
                     "iconName": "pythonIcon"
                 },
                 {
                     "name": "Flask",
                     "color": "white",
+                    "bgColor": "gray-500",
                     "iconName": "flaskIcon"
                 },
                 {
                     "name": "Jinja",
-                    "color": "gray",
+                    "color": "gray-300",
+                    "bgColor": "gray-700",
                     "iconName": "jinjaIcon"
                 },
                 {
                     "name": "Bootstrap",
-                    "color": "sky",
+                    "color": "sky-500",
+                    "bgColor": "sky-950",
                     "iconName": "bootstrapIcon"
                 },
                 {
                     "name": "HTML/CSS",
-                    "color": "orange",
+                    "color": "orange-500",
+                    "bgColor": "orange-950",
                     "iconName": "html5Icon"
                 },
                 {
                     "name": "Docker",
-                    "color": "blue",
+                    "color": "blue-500",
+                    "bgColor": "blue-950",
                     "iconName": "dockerIcon"
                 }
             ]
@@ -247,12 +264,14 @@
             "tags": [
                 {
                     "name": "Python",
-                    "color": "red",
+                    "color": "red-500",
+                    "bgColor": "red-950",
                     "iconName": "pythonIcon"
                 },
                 {
                     "name": "Tkinter",
-                    "color": "amber",
+                    "color": "amber-500",
+                    "bgColor": "amber-950",
                     "iconName": "pythonIcon"
                 }
             ]
