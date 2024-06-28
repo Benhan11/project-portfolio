@@ -11,7 +11,7 @@ import icons from 'assets/images/icons';
  */
 function HomePage() {
     return (
-    <div className="min-h-screen font-mono text-slate-200 bg-fixed bg-gradient-to-tr from-amber-300 via-indigo-400 to-rose-300">
+    <div className="min-h-screen font-mono text-slate-200 bg-fixed bg-gradient-to-tr from-gradient-a via-gradient-b to-gradient-c">
             <div className="mx-auto max-w-screen-xl px-6 pb-1 sm:pb-0 md:px-12 lg:px-24">
                 <div className="lg:flex lg:justify-between lg:space-y-0 space-y-4">
                     <div className="lg:flex lg:flex-col lg:sticky lg:top-0 lg:max-h-screen lg:w-1/2 lg:py-24 md:py-12 pt-6 pb-12">
@@ -26,7 +26,7 @@ function HomePage() {
                                 <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer" className="hover:text-slate-50 drop-shadow"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
                             </div>
                             <p className="max-w-72 pt-16">
-                                <a className="text-lg font-bold bg-gradient-to-r from-orange-500 to-yellow-500 inline-block text-transparent bg-clip-text drop-shadow">Welcome!</a><br/>
+                                <a className="text-lg font-bold bg-gradient-to-r from-orange-300 to-yellow-400 inline-block text-transparent bg-clip-text drop-shadow">Welcome!</a><br/>
                                 <span className="drop-shadow">Feel free to explore some of my personal projects.</span>
                             </p>
                         </div>

@@ -9,10 +9,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        heat: {
-          DEFAULT: '#D6CCBC',
-          dark: '#B0A99F'
-        },
         gradient: {
           a: '#FEAC5E',
           b: '#C779D0',

@@ -44,7 +44,7 @@
                 },
                 {
                     "name": "TypeScript",
-                    "color": "blue-500",
+                    "color": "blue-400",
                     "bgColor": "blue-950",
                     "iconName": "typescriptIcon"
                 },
@@ -141,7 +141,7 @@
                 },
                 {
                     "name": "Docker",
-                    "color": "blue-500",
+                    "color": "blue-400",
                     "bgColor": "blue-950",
                     "iconName": "dockerIcon"
                 }
@@ -191,8 +191,8 @@
                 },
                 {
                     "name": "Flask",
-                    "color": "white",
-                    "bgColor": "gray-500",
+                    "color": "yellow-500",
+                    "bgColor": "yellow-950",
                     "iconName": "flaskIcon"
                 },
                 {
@@ -215,7 +215,7 @@
                 },
                 {
                     "name": "Docker",
-                    "color": "blue-500",
+                    "color": "blue-400",
                     "bgColor": "blue-950",
                     "iconName": "dockerIcon"
                 }
