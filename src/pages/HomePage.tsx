@@ -25,9 +25,15 @@ function HomePage() {
                                 <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 drop-shadow"><IconWrapper icon={icons['linkedinIcon']} size="xl" /></a>
                                 <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer" className="hover:text-slate-50 drop-shadow"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
                             </div>
-                            <p className="max-w-72 pt-16">
-                                <a className="text-lg font-bold bg-gradient-to-r from-orange-300 to-yellow-400 inline-block text-transparent bg-clip-text drop-shadow">Welcome!</a><br/>
-                                <span className="drop-shadow text-slate-100">Feel free to explore some of my personal projects.</span>
+                            <p className="max-w-80 pt-16">
+                                <a className="text-lg text-yellow-300 drop-shadow">
+                                    Hi, I'm Benjamin!
+                                </a><br/>
+                                <span className="drop-shadow text-slate-100">
+                                    I have a passion for programming and other creative processes. 
+                                    <br />
+                                    Feel free to explore some of my personal projects.
+                                </span>
                             </p>
                         </div>
                     </div>
