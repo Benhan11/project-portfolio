@@ -33,14 +33,17 @@ be structured as follows:
     "tags": [
         {
             "name": "JavaScript",
-            "color": "Lime",
+            "color": "yellow-500",
+            "bgColor": "yellow-950",
             "iconName": "javascriptIcon"
         },
         ...
     ]
 }
 ```
-***NOTE*** `imageName`/`iconName` should be the same as the exported image/icon from the corrseponding scripts
+***NOTE*** `imageName`/`iconName` should be the same as the exported image/icon
+from the corrseponding scripts, `color` and `bgColor` must be valid [Tailwind
+colors.](https://tailwindcss.com/docs/customizing-colors)
 
 
 ### 2. **Add corresponding project snippet JSON object**

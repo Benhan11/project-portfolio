@@ -26,6 +26,7 @@ import {
     faArrowDown as scrollArrowIcon,
     faChevronLeft as backIcon,
     faCircleChevronUp as upIcon,
+    faXmark as closeIcon,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
@@ -41,6 +42,7 @@ const icons: IconsType = {
     scrollArrowIcon,
     backIcon,
     upIcon,
+    closeIcon,
 
     fontAwesomeIcon,
     boxiconsIcon,

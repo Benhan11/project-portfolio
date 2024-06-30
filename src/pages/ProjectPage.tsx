@@ -1,8 +1,9 @@
-import { useRef, createRef, useEffect } from 'react';
+import { useRef, createRef, useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ProjectTag from 'components/ProjectTag';
 import IconWrapper from 'components/IconWrapper';
 import Footer from 'components/Footer';
+import ImageModal from 'components/ImageModal';
 import ScrollButton from 'components/ScrollButton';
 import ScrollIndicator from 'components/ScrollIndicator';
 import useIsVisible from 'hooks/useIsVisible';
@@ -23,6 +24,21 @@ function ProjectPage() {
 
     const sectionsRef = useRef<Array<React.RefObject<HTMLDivElement>>>(project.dataSections.map(() => createRef()));
     const isVisibleArray = useIsVisible({ elements: sectionsRef.current });
+
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [modalImageSrc, setModalImageSrc] = useState('');
+
+    const openImageModal = (imageSrc: string) => {
+        setModalImageSrc(imageSrc);
+        setIsModalOpen(true);
+    };
+
+    const closeImageModal = () => {
+        setIsModalOpen(false);
+        setModalImageSrc('');
+    }
+
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -55,7 +71,11 @@ function ProjectPage() {
                             </div>
                             <div className="flex flex-row md:w-1/2 w-full">
                                 <div className="flex w-full justify-center items-center">
-                                    <img src={images[section.imageName]} className="md:max-h-[26rem] max-h-[24rem] lg:max-w-[32rem] md:max-w-[24rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl" />
+                                    <img 
+                                        src={images[section.imageName]} 
+                                        className="md:max-h-[26rem] max-h-[24rem] lg:max-w-[32rem] md:max-w-[24rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
+                                        onClick={() => openImageModal(section.imageName)} 
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -65,6 +85,7 @@ function ProjectPage() {
             <ScrollIndicator />
             <ScrollButton />
             <Footer isProjectPage={true} />
+            {isModalOpen && <ImageModal imageName={modalImageSrc} closeCallback={closeImageModal} />}
         </div>
     );
 }

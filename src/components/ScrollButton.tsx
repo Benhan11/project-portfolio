@@ -29,7 +29,7 @@ function ScrollButton() {
     });
 
     return (
-        <button className={`fixed text-slate-200 drop-shadow sm:bottom-12 bottom-8 lg:end-12 md:end-10 end-8 ${visible ? "inline-block" : "hidden"}`} onClick={backToTop}>
+        <button className={`fixed text-slate-200 drop-shadow sm:bottom-12 bottom-8 lg:end-12 md:end-10 end-8 z-10 ${visible ? "inline-block" : "hidden"}`} onClick={backToTop}>
             <IconWrapper icon={icons['upIcon']} transform="grow-8" />
         </button>
     );
