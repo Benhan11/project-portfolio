@@ -23,6 +23,7 @@ import {
 import {
     faArrowUpRightFromSquare as opensNewPageBoxIcon,
     faArrowUp as opensNewPageArrowIcon,
+    faArrowDown as scrollArrowIcon,
     faChevronLeft as backIcon,
     faCircleChevronUp as upIcon,
 } from '@fortawesome/free-solid-svg-icons'
@@ -37,6 +38,7 @@ type IconsType = {
 const icons: IconsType = {
     opensNewPageBoxIcon,
     opensNewPageArrowIcon,
+    scrollArrowIcon,
     backIcon,
     upIcon,
 

@@ -27,7 +27,7 @@ function HomePage() {
                             </div>
                             <p className="max-w-72 pt-16">
                                 <a className="text-lg font-bold bg-gradient-to-r from-orange-300 to-yellow-400 inline-block text-transparent bg-clip-text drop-shadow">Welcome!</a><br/>
-                                <span className="drop-shadow">Feel free to explore some of my personal projects.</span>
+                                <span className="drop-shadow text-slate-100">Feel free to explore some of my personal projects.</span>
                             </p>
                         </div>
                     </div>

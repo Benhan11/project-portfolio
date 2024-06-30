@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import IconWrapper from 'components/IconWrapper';
 import icons from 'assets/images/icons';
 
@@ -21,7 +21,12 @@ function ScrollButton() {
         }
     }
     
-    window.addEventListener('scroll', toggleVisible);
+    useEffect(() => {
+        window.addEventListener('scroll', toggleVisible);
+        return () => {
+            window.removeEventListener('scroll', toggleVisible);
+        }
+    });
 
     return (
         <button className={`fixed text-slate-200 drop-shadow sm:bottom-12 bottom-8 lg:end-12 md:end-10 end-8 ${visible ? "inline-block" : "hidden"}`} onClick={backToTop}>

@@ -35,7 +35,7 @@ function ProjectSnippet({ snippet }: SnippetProps) {
                         <IconWrapper icon={icons['opensNewPageBoxIcon']} size="sm" className="mt-1" />
                     </div>
                     <h2 className="font-bold text-lg bg-gradient-to-r from-orange-300 to-yellow-500 text-transparent bg-clip-text block sm:hidden">{snippet.title}<span className="whitespace-nowrap">&nbsp;<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-3 left-7" className="text-yellow-500" /></span></h2>
-                    <p className="text-base">{snippet.description}</p>
+                    <p className="text-base sm:text-slate-200 text-slate-100">{snippet.description}</p>
                 </div>
             </div>
         </Link>

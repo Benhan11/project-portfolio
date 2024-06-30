@@ -4,6 +4,7 @@ import ProjectTag from 'components/ProjectTag';
 import IconWrapper from 'components/IconWrapper';
 import Footer from 'components/Footer';
 import ScrollButton from 'components/ScrollButton';
+import ScrollIndicator from 'components/ScrollIndicator';
 import useIsVisible from 'hooks/useIsVisible';
 
 import projectData from 'assets/project_page_data.json';
@@ -28,11 +29,11 @@ function ProjectPage() {
     }, []);
 
     return (
-        <div className="min-h-screen font-mono text-slate-200 bg-gradient-to-br bg-fixed from-gradient-c via-gradient-b to-gradient-a">
+        <div className="min-h-screen font-mono text-slate-100 bg-gradient-to-br bg-fixed from-gradient-c via-gradient-b to-gradient-a">
             <div className="mx-auto max-w-screen-xl lg:px-24 md:px-12 sm:px-24 px-6 pb-20">
                 <div className="lg:py-20 md:py-12 pt-6 pb-16">
                     <div className="sm:mb-3 mb-8">
-                        <Link to="/" className="text-base drop-shadow"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
+                        <Link to="/" className="text-base text-slate-200 drop-shadow"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
                     </div>
                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="flex flex-row text-slate-100 text-3xl font-medium space-x-2">
                         <div className="drop-shadow">{project.title}<span className="whitespace-nowrap">&nbsp;<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-4 left-8" /></span></div>
@@ -61,6 +62,7 @@ function ProjectPage() {
                     )}
                 </div>
             </div>
+            <ScrollIndicator />
             <ScrollButton />
             <Footer isProjectPage={true} />
         </div>
