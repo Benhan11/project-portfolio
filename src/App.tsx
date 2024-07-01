@@ -13,6 +13,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/project/:projectId" element={<ProjectPage />} />
                 <Route path="/project" element={<Navigate to="/" />} />
+                <Route path="/*" element={<Navigate to="/" />} />
             </Routes>
         </BrowserRouter>
     );
