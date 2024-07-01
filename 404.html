@@ -3,10 +3,9 @@
   <head>
     <title>Page Not Found</title>
     <script type="text/javascript">
-        console.log("PAGE NOT FOUND!");
-        var segmentCount = 1;
-        var l = window.location;
-        l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') );
+        var publicUrl = '/project-portfolio'
+        var location = window.location;
+        location.replace(location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '') + publicUrl);
     </script>
   </head>
   <body>
