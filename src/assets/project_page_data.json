@@ -30,6 +30,11 @@
                     "imageName": "portfolioImages"
                 },
                 {
+                    "title": "CI/CD",
+                    "text": "This app is hosted with Github pages which provides an easy and fast way to set up CI/CD deployment pipelines.",
+                    "imageName": "portfolioDeployment"
+                },
+                {
                     "title": "Documentation",
                     "text": "TypeScript enables simple code documentation. The built in types and interfaces make full JSDoc comments redundant, allowing for concise, descriptive component descriptions. A ReadMe also exists, describing the application and how to use the image/icon scripts.",
                     "imageName": "portfolioDocumentation"

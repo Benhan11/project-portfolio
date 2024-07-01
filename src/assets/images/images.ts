@@ -4,6 +4,7 @@ import portfolioStack from 'assets/images/project-images/project-portfolio/stack
 import portfolioDynamic from 'assets/images/project-images/project-portfolio/dynamic.svg'
 import portfolioFile from 'assets/images/project-images/project-portfolio/file.svg'
 import portfolioImages from 'assets/images/project-images/project-portfolio/images.svg'
+import portfolioDeployment from 'assets/images/project-images/project-portfolio/deployment.png'
 import portfolioDocumentation from 'assets/images/project-images/project-portfolio/documentation.svg'
 
 import youtubeSnippet from 'assets/images/project-images/youtube-playlist-saver/snippet.png';
@@ -42,6 +43,7 @@ const images: ImagesType = {
     portfolioDynamic,
     portfolioFile,
     portfolioImages,
+    portfolioDeployment,
     portfolioDocumentation,
 
     youtubeSnippet,
