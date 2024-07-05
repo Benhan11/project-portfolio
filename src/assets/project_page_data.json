@@ -280,6 +280,79 @@
                     "iconName": "pythonIcon"
                 }
             ]
+        },
+        "scadmin": {
+            "url": "https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=4&af=%5B%22publicationTypeCode%3AstudentThesis%22%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=benjamin+hansson&language=en&pid=diva2%3A1712193&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=-9826",
+            "title": "SCADMIN - Thesis",
+            "dataSections": [
+                {
+                    "title": "Overview",
+                    "text": "SCADMIN is a full-stack app that served as the practical part of my thesis project. It provides tracking and administration of work tools used at a logistics warehouse. The application was built with Spring, Thymeleaf, and PostgreSQL. I take great pride in the written report, which undoubtedly describes this project best. Please read the thesis in full in the DiVA portal, it was well received.",
+                    "imageName": "scadminOverview"
+                },
+                {
+                    "title": "The problem",
+                    "text": "Distributing scanners at the start of a shift consisted of inputting information into various different spreadsheets. There was no way to properly keep track of missing or broken devices, and no real way to identify misuse. The picture depicts what checking in/out scanners used to look like.",
+                    "imageName": "scadminProblem"
+                },
+                {
+                    "title": "Solution",
+                    "text": "A full-stack application was developed, which expanded tracking and administration capabilities drastically for the scanners. Importantly, the common distribution use flow was both simple and rapid. Please see chapter 4.6 for the resulting implementation (explanation and pictures) as the application covers a wide range of functionality.",
+                    "imageName": "scadminSolution"
+                },
+                {
+                    "title": "Models",
+                    "text": "Detailed use cases, flows, database models, and finite state machine models were all created. This helped steer development and made sure application execution was predictable and deterministic. See chapter 4 for all models and diagrams, we crafted them with care.",
+                    "imageName": "scadminModel"
+                },
+                {
+                    "title": "Stack",
+                    "text": "Spring is a large project, we used the following frameworks: Spring Boot, Spring Web MVC, Spring Data JPA, and Spring Security. Together they enable web-development, provide database interfacing, authentication, authorization, and encryption. Thymeleaf as a template engine was used in conjunction with Bootstrap for simple yet dynamic pages.",
+                    "imageName": "scadminStack"
+                },
+                {
+                    "title": "Task delegation",
+                    "text": "Work was coordinated with a SCRUM-inspired board. The board consisted of four sections, one for each of us (two people), a 'Tasks', and a 'Done' section. Due to having minimal feedback from the company we had to skip SCRUM 'sprints'. Throughout we made efficient use of a feature-driven Git repository.",
+                    "imageName": "scadminGit"
+                },
+                {
+                    "title": "Additional features",
+                    "text": "We made a point out of future-proofing the application. Swedish and English localization were added, with any new additions requiring only new translation files. Additionally, logging was added to provide a last line of debugging in the case of unexpected behavior.",
+                    "imageName": "scadminLocalization"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "Java",
+                    "color": "neutral-100",
+                    "bgColor": "cyan-950",
+                    "iconName": "javaIcon"
+                },
+                {
+                    "name": "Spring",
+                    "color": "lime-500",
+                    "bgColor": "lime-900",
+                    "iconName": "springIcon"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "color": "cyan-500",
+                    "bgColor": "cyan-950",
+                    "iconName": "postgreSQLIcon"
+                },
+                {
+                    "name": "Thymeleaf",
+                    "color": "lime-500",
+                    "bgColor": "lime-950",
+                    "iconName": "springIcon"
+                },
+                {
+                    "name": "Bootstrap",
+                    "color": "sky-500",
+                    "bgColor": "sky-950",
+                    "iconName": "bootstrapIcon"
+                }
+            ]
         }
     }
 }

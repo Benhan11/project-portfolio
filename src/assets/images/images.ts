@@ -31,6 +31,15 @@ import hueColorTheory from 'assets/images/project-images/hue-lamp-app/color_theo
 import hueUtilities from 'assets/images/project-images/hue-lamp-app/utilities.svg';
 import hueDocumentation from 'assets/images/project-images/hue-lamp-app/documentation.svg';
 
+import scadminSnippet from 'assets/images/project-images/scadmin/snippet.png';
+import scadminOverview from 'assets/images/project-images/scadmin/overview.png';
+import scadminProblem from 'assets/images/project-images/scadmin/problem.png';
+import scadminSolution from 'assets/images/project-images/scadmin/solution.png';
+import scadminModel from 'assets/images/project-images/scadmin/model.png';
+import scadminStack from 'assets/images/project-images/scadmin/stack.svg';
+import scadminGit from 'assets/images/project-images/scadmin/git.png';
+import scadminLocalization from 'assets/images/project-images/scadmin/localization.svg';
+
 
 type ImagesType = {
     [key: string]: string;
@@ -69,6 +78,15 @@ const images: ImagesType = {
     hueColorTheory,
     hueUtilities,
     hueDocumentation,
+
+    scadminSnippet,
+    scadminOverview,
+    scadminProblem,
+    scadminSolution,
+    scadminModel,
+    scadminStack,
+    scadminGit,
+    scadminLocalization,
 };
 
 

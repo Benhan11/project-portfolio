@@ -4,6 +4,8 @@ import typescriptIcon from 'assets/images/manual-icons/typescriptIcon.svg';
 import tailwindIcon from 'assets/images/manual-icons/tailwindIcon.svg';
 import flaskIcon from 'assets/images/manual-icons/flaskIcon.svg';
 import jinjaIcon from 'assets/images/manual-icons/jinjaIcon.svg';
+import springIcon from 'assets/images/manual-icons/spring.svg';
+import postgreSQLIcon from 'assets/images/manual-icons/postgresql.svg';
 
 
 /* Font awesome icons, represented as type IconProp */
@@ -18,6 +20,7 @@ import {
     faHtml5 as html5Icon,
     faReact as reactIcon,
     faDocker as dockerIcon,
+    faJava as javaIcon,
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -59,6 +62,9 @@ const icons: IconsType = {
     dockerIcon,
     flaskIcon,
     jinjaIcon,
+    javaIcon,
+    springIcon,
+    postgreSQLIcon,
 };
 
 

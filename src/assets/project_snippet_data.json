@@ -1,6 +1,12 @@
 {
     "content": [
         {
+            "title": "SCADMIN - Thesis",
+            "description": "Thesis project consisting of a full-stack application for the tracking and administration of work tools and it's accompanying report. Completed at a logistics company, and my proudest work.",
+            "imageName": "scadminSnippet",
+            "projectId": "scadmin"
+        },
+        {
             "title": "Spotify playlist saver",
             "description": "A Python-built web app utilizing Flask and Jinja. Gathers user playlists, leveraging the Spotify API, and allows for their backup. Includes documentation, in and out of code, and Docker setup.",
             "imageName": "spotifySnippet",
