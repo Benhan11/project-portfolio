@@ -37,7 +37,7 @@ function ProjectPage() {
     const closeImageModal = () => {
         setIsModalOpen(false);
         setModalImageSrc('');
-    }
+    };
 
 
     useEffect(() => {

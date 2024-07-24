@@ -31,7 +31,7 @@
                 },
                 {
                     "title": "CI/CD",
-                    "text": "This app is hosted with Github pages which provides an easy and fast way to set up CI/CD deployment pipelines.",
+                    "text": "This app is hosted with Github pages which provides an easy and fast way to set up CI/CD deployment pipelines using actions.",
                     "imageName": "portfolioDeployment"
                 },
                 {
