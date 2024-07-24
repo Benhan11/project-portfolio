@@ -65,7 +65,7 @@ function ProjectPage() {
                         <div key={index} ref={sectionsRef.current[index]} className={`md:flex md:h-[28rem] min-h md:space-x-12 md:space-y-0 space-y-8 sm:transition-opacity sm:ease-in sm:duration-200 ${isVisibleArray[index] ? "sm:opacity-100" : "sm:opacity-30"}`}>
                             <div className="md:w-1/2 flex items-center">
                                 <div>
-                                    <a className="text-lg font-bold drop-shadow bg-gradient-to-r from-orange-300 to-yellow-400 inline-block text-transparent bg-clip-text sm:pb-0 pb-2">{section.title}</a><br/>
+                                    <a className="text-lg drop-shadow text-yellow-300 sm:pb-0 pb-2">{section.title}</a><br/>
                                     <span className="text-base drop-shadow">{section.text}</span>
                                 </div>
                             </div>
