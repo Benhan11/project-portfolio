@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ProjectSnippet from 'components/ProjectSnippet';
 import IconWrapper from 'components/IconWrapper';
 import Footer from 'components/Footer';
@@ -20,7 +21,10 @@ function HomePage() {
                                 <div>Portfolio</div>
                                 <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-8 rotate-45 up-2" />
                             </a>
-                            <h2 className="text-lg drop-shadow">Benjamin Hansson</h2>
+                            <Link to={`/about`} className="text-lg drop-shadow">
+                                <span>Benjamin Hansson</span>
+                                <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-2 right-3" />
+                            </Link>
                             <div className="space-x-2 pt-2 text-slate-300">
                                 <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 drop-shadow"><IconWrapper icon={icons['linkedinIcon']} size="xl" /></a>
                                 <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer" className="hover:text-slate-50 drop-shadow"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
@@ -32,7 +36,9 @@ function HomePage() {
                                 <span className="drop-shadow text-slate-100">
                                     I have a passion for programming and other creative processes. 
                                     <br />
-                                    Feel free to explore some of my personal projects.
+                                    Feel free to explore some of my personal projects and read my
+                                    <Link to={`/about`} className="text-sky-300 pe-0.5 animate-customPulse"> About<IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4" /></Link>
+                                    page where I show off some wire sculpture trees.
                                 </span>
                             </p>
                         </div>
