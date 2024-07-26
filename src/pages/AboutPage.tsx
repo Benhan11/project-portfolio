@@ -58,7 +58,7 @@ function AboutPage() {
     return (
         <div className="min-h-screen font-mono text-slate-200 bg-fixed bg-gradient-to-tr from-gradient-a via-gradient-b to-gradient-c">
             <div className="mx-auto max-w-screen-xl px-6 pb-1 sm:pb-0 md:px-12 lg:px-24">
-                <div className="flex flex-wrap flex-row sm:justify-normal justify-between lg:pt-24 lg:pb-4 md:py-12 pt-6 mb-24">
+                <div className="flex flex-wrap flex-row sm:justify-normal justify-between lg:pt-24 lg:pb-4 md:py-12 pt-6 mb-4">
                     <img src={images["photo"]} className="rounded-full sm:order-first order-last sm:max-h-40 max-h-36 max-w-48 border-2 border-stone-300 drop-shadow shadow-xl" />
                     <div className="flex flex-col sm:pt-4 pt-1 sm:ps-8 pe-8 sm:pb-0 pb-10">
                         <div className="mb-2">
