@@ -1,10 +1,24 @@
 {
   "files": {
-    "main.css": "/project-portfolio/static/css/main.b96cc349.css",
-    "main.js": "/project-portfolio/static/js/main.25c8ea90.js",
+    "main.css": "/project-portfolio/static/css/main.27053995.css",
+    "main.js": "/project-portfolio/static/js/main.210f9502.js",
     "static/media/overview.png": "/project-portfolio/static/media/overview.c3e3f64810607ab5a5de.png",
+    "static/media/weeping_willow.jpg": "/project-portfolio/static/media/weeping_willow.88a13bac4ff6021847dc.jpg",
+    "static/media/orange_bonsai.jpg": "/project-portfolio/static/media/orange_bonsai.2077d69e4e7c062475cc.jpg",
+    "static/media/purple_discs.jpg": "/project-portfolio/static/media/purple_discs.3d30ec1b205dde6137b4.jpg",
+    "static/media/alien_tree.jpg": "/project-portfolio/static/media/alien_tree.69f28698953a81ed8749.jpg",
+    "static/media/dragon_bonsai.jpg": "/project-portfolio/static/media/dragon_bonsai.b70cd92898639ab48727.jpg",
+    "static/media/s_tree.jpg": "/project-portfolio/static/media/s_tree.daa853d803178500ef65.jpg",
+    "static/media/black_cherry.jpg": "/project-portfolio/static/media/black_cherry.893c365ad08b157d4b1e.jpg",
+    "static/media/split_color.jpg": "/project-portfolio/static/media/split_color.11219f2c754ac033fc0c.jpg",
+    "static/media/weeping_willow_2.jpg": "/project-portfolio/static/media/weeping_willow_2.8f997f23c83d2f13b4c0.jpg",
+    "static/media/maple.jpg": "/project-portfolio/static/media/maple.c8db597bf3cbf34ba712.jpg",
+    "static/media/first.jpg": "/project-portfolio/static/media/first.1d0bfbd7e8283ea947b8.jpg",
+    "static/media/purple_roots.jpg": "/project-portfolio/static/media/purple_roots.99d3e6a50a4ab87aeca9.jpg",
     "static/media/color_theory.svg": "/project-portfolio/static/media/color_theory.558cd9ce68fad2c8a6ee08fe2141c5fa.svg",
     "static/media/lights.png": "/project-portfolio/static/media/lights.dab88d0c6bbe9564ba4d.png",
+    "static/media/photo.jpg": "/project-portfolio/static/media/photo.34b262565ba3fa931120.jpg",
+    "static/media/gold_oak.jpg": "/project-portfolio/static/media/gold_oak.b75132a16486313be775.jpg",
     "static/media/images.svg": "/project-portfolio/static/media/images.e71a0be6c04f3de03445137d454e2396.svg",
     "static/media/dynamic.svg": "/project-portfolio/static/media/dynamic.4e28a74edf7aa0e88777870097ec559e.svg",
     "static/media/file.svg": "/project-portfolio/static/media/file.4f47a5303a34dc99ea3e24e43df4aac6.svg",
@@ -13,9 +27,14 @@
     "static/media/documentation.svg": "/project-portfolio/static/media/documentation.58b0a1d85d8f8aae2b921275adefeae9.svg",
     "static/media/callback.svg": "/project-portfolio/static/media/callback.369223a270b3e3a780ea9b3270957af1.svg",
     "static/media/utilities.svg": "/project-portfolio/static/media/utilities.7f87f5c0d055de6b1bd9609ea43550e7.svg",
+    "static/media/pot_bonsai_alt.jpg": "/project-portfolio/static/media/pot_bonsai_alt.27a32da7d82f5b284dc0.jpg",
     "static/media/auth.svg": "/project-portfolio/static/media/auth.fdf9436358addf1d1a5a4a64ee8a700c.svg",
+    "static/media/pot_bonsai.jpg": "/project-portfolio/static/media/pot_bonsai.55735953168ab27c7ad1.jpg",
+    "static/media/pink_bonsai.jpg": "/project-portfolio/static/media/pink_bonsai.2d716616be36fd9e80b6.jpg",
     "static/media/events.svg": "/project-portfolio/static/media/events.ed13ed350d527c0bb5657562a81e2882.svg",
     "static/media/CascadiaCode.ttf": "/project-portfolio/static/media/CascadiaCode.77775c6c6ad298b9816f.ttf",
+    "static/media/sparse_fan.jpg": "/project-portfolio/static/media/sparse_fan.87a3a8ff195ec6a91022.jpg",
+    "static/media/candle_holder.jpg": "/project-portfolio/static/media/candle_holder.d46e80d2909b7894620f.jpg",
     "static/media/snippet.png": "/project-portfolio/static/media/snippet.be7be37d618f0481a384.png",
     "static/media/model.png": "/project-portfolio/static/media/model.61bc7c7b06a3540ca748.png",
     "static/media/app.png": "/project-portfolio/static/media/app.b71fd01135abfc86d25c.png",
@@ -33,11 +52,11 @@
     "static/media/tailwindIcon.svg": "/project-portfolio/static/media/tailwindIcon.39b27339915e099ca14d2df48c76265d.svg",
     "index.html": "/project-portfolio/index.html",
     "static/media/boxiconsIcon.svg": "/project-portfolio/static/media/boxiconsIcon.dba15587bad994daada35d61f97a6219.svg",
-    "main.b96cc349.css.map": "/project-portfolio/static/css/main.b96cc349.css.map",
-    "main.25c8ea90.js.map": "/project-portfolio/static/js/main.25c8ea90.js.map"
+    "main.27053995.css.map": "/project-portfolio/static/css/main.27053995.css.map",
+    "main.210f9502.js.map": "/project-portfolio/static/js/main.210f9502.js.map"
   },
   "entrypoints": [
-    "static/css/main.b96cc349.css",
-    "static/js/main.25c8ea90.js"
+    "static/css/main.27053995.css",
+    "static/js/main.210f9502.js"
   ]
 }
