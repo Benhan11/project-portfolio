@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/project-portfolio/static/css/main.4807b229.css",
-    "main.js": "/project-portfolio/static/js/main.1c300dc5.js",
+    "main.css": "/project-portfolio/static/css/main.6e8ae274.css",
+    "main.js": "/project-portfolio/static/js/main.457c352f.js",
     "static/media/overview.png": "/project-portfolio/static/media/overview.c3e3f64810607ab5a5de.png",
-    "static/media/weeping_willow.jpg": "/project-portfolio/static/media/weeping_willow.88a13bac4ff6021847dc.jpg",
+    "static/media/weeping_willow.jpg": "/project-portfolio/static/media/weeping_willow.a8cd291a2059c8f0543d.jpg",
     "static/media/orange_bonsai.jpg": "/project-portfolio/static/media/orange_bonsai.2077d69e4e7c062475cc.jpg",
     "static/media/purple_discs.jpg": "/project-portfolio/static/media/purple_discs.3d30ec1b205dde6137b4.jpg",
     "static/media/alien_tree.jpg": "/project-portfolio/static/media/alien_tree.69f28698953a81ed8749.jpg",
@@ -52,11 +52,11 @@
     "static/media/tailwindIcon.svg": "/project-portfolio/static/media/tailwindIcon.39b27339915e099ca14d2df48c76265d.svg",
     "index.html": "/project-portfolio/index.html",
     "static/media/boxiconsIcon.svg": "/project-portfolio/static/media/boxiconsIcon.dba15587bad994daada35d61f97a6219.svg",
-    "main.4807b229.css.map": "/project-portfolio/static/css/main.4807b229.css.map",
-    "main.1c300dc5.js.map": "/project-portfolio/static/js/main.1c300dc5.js.map"
+    "main.6e8ae274.css.map": "/project-portfolio/static/css/main.6e8ae274.css.map",
+    "main.457c352f.js.map": "/project-portfolio/static/js/main.457c352f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4807b229.css",
-    "static/js/main.1c300dc5.js"
+    "static/css/main.6e8ae274.css",
+    "static/js/main.457c352f.js"
   ]
 }
