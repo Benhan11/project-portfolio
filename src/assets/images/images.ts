@@ -40,6 +40,7 @@ import scadminStack from 'assets/images/project-images/scadmin/stack.svg';
 import scadminGit from 'assets/images/project-images/scadmin/git.png';
 import scadminLocalization from 'assets/images/project-images/scadmin/localization.svg';
 
+import photo from 'assets/images/project-images/about/photo.jpg';
 import aboutFirstTree from 'assets/images/project-images/about/first.jpg';
 import aboutWeepingWillow from 'assets/images/project-images/about/weeping_willow.jpg';
 import aboutDragonBonsai from 'assets/images/project-images/about/dragon_bonsai.jpg';
@@ -107,6 +108,7 @@ const images: ImagesType = {
     scadminGit,
     scadminLocalization,
 
+    photo,
     aboutFirstTree,
     aboutWeepingWillow,
     aboutDragonBonsai,

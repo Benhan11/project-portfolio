@@ -28,7 +28,7 @@ function ScrollIndicator() {
 
     return (
         <div className={`fixed flex inset-x-0 items-center justify-center text-slate-200 drop-shadow sm:bottom-12 bottom-8 ${visible ? "inline-flex" : "hidden"} animate-bounce`}>
-            <IconWrapper icon={icons['scrollArrowIcon']} transform="grow-8" />
+            <IconWrapper icon={icons['scrollArrowIcon']} transform="grow-16" />
         </div>
     );
 }

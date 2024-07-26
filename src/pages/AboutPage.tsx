@@ -58,13 +58,13 @@ function AboutPage() {
     return (
         <div className="min-h-screen font-mono text-slate-200 bg-fixed bg-gradient-to-tr from-gradient-a via-gradient-b to-gradient-c">
             <div className="mx-auto max-w-screen-xl px-6 pb-1 sm:pb-0 md:px-12 lg:px-24">
-                <div className="flex flex-row lg:pt-24 lg:pb-4 md:py-12 pt-6 mb-24">
-                    <img src={images["hueLights"]} className="sm:order-first order-last max-h-40 max-w-48 border-2 border-stone-300 rounded drop-shadow shadow-xl" />
-                    <div className="flex flex-col pt-3 sm:ps-8 pe-8">
+                <div className="flex flex-wrap flex-row sm:justify-normal justify-between lg:pt-24 lg:pb-4 md:py-12 pt-6 mb-24">
+                    <img src={images["photo"]} className="rounded-full sm:order-first order-last sm:max-h-40 max-h-36 max-w-48 border-2 border-stone-300 drop-shadow shadow-xl" />
+                    <div className="flex flex-col sm:pt-4 pt-1 sm:ps-8 pe-8 sm:pb-0 pb-10">
                         <div className="mb-2">
                             <Link to="/" className="text-base text-slate-200 drop-shadow"><IconWrapper icon={icons['backIcon']} size="sm" /> Home</Link>
                         </div>
-                        <div className="text-slate-100 text-3xl font-medium drop-shadow">Benjamin Hansson</div>
+                        <div className="text-slate-100 text-3xl font-medium drop-shadow">Benjamin<span className="sm:inline block"></span> Hansson</div>
                         <div className="space-x-2 pt-2 text-slate-300">
                             <a href="https://www.linkedin.com/in/benjamin-hansson-88131b1a2/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 drop-shadow"><IconWrapper icon={icons['linkedinIcon']} size="xl" /></a>
                             <a href="https://github.com/Benhan11" target="_blank" rel="noopener noreferrer" className="hover:text-slate-50 drop-shadow"><IconWrapper icon={icons['githubIcon']} size="lg" /></a>
