@@ -41,24 +41,24 @@ import scadminGit from 'assets/images/project-images/scadmin/git.png';
 import scadminLocalization from 'assets/images/project-images/scadmin/localization.svg';
 
 import photo from 'assets/images/project-images/about/photo.jpg';
-import aboutFirstTree from 'assets/images/project-images/about/first.jpg';
-import aboutWeepingWillow from 'assets/images/project-images/about/weeping_willow.jpg';
-import aboutDragonBonsai from 'assets/images/project-images/about/dragon_bonsai.jpg';
-import aboutWeepingWillow2 from 'assets/images/project-images/about/weeping_willow_2.jpg';
-import aboutSTree from 'assets/images/project-images/about/s_tree.jpg';
-import aboutMapleTree from 'assets/images/project-images/about/maple.jpg';
-import aboutBlackCherry from 'assets/images/project-images/about/black_cherry.jpg';
-import aboutOrangeBonsai from 'assets/images/project-images/about/orange_bonsai.jpg';
-import aboutPurpleDiscs from 'assets/images/project-images/about/purple_discs.jpg';
-import aboutAlienTree from 'assets/images/project-images/about/alien_tree.jpg';
-import aboutSplitColorTree from 'assets/images/project-images/about/split_color.jpg';
-import aboutPurpleRootsTree from 'assets/images/project-images/about/purple_roots.jpg';
-import aboutSparseFanTree from 'assets/images/project-images/about/sparse_fan.jpg';
-import aboutPinkBonsai from 'assets/images/project-images/about/pink_bonsai.jpg';
-import aboutCandleHolderTree from 'assets/images/project-images/about/candle_holder.jpg';
-import aboutPotBonsai from 'assets/images/project-images/about/pot_bonsai.jpg';
-import aboutPotBonsaiAlt from 'assets/images/project-images/about/pot_bonsai_alt.jpg';
-import aboutGoldOak from 'assets/images/project-images/about/gold_oak.jpg';
+import treesFirst from 'assets/images/project-images/about/first.jpg';
+import treesWeepingWillow from 'assets/images/project-images/about/weeping_willow.jpg';
+import treesDragonBonsai from 'assets/images/project-images/about/dragon_bonsai.jpg';
+import treesWeepingWillow2 from 'assets/images/project-images/about/weeping_willow_2.jpg';
+import treesSTree from 'assets/images/project-images/about/s_tree.jpg';
+import treesMaple from 'assets/images/project-images/about/maple.jpg';
+import treesBlackCherry from 'assets/images/project-images/about/black_cherry.jpg';
+import treesOrangeBonsai from 'assets/images/project-images/about/orange_bonsai.jpg';
+import treesPurpleDiscs from 'assets/images/project-images/about/purple_discs.jpg';
+import treesAlien from 'assets/images/project-images/about/alien_tree.jpg';
+import treesSplitColor from 'assets/images/project-images/about/split_color.jpg';
+import treesPurpleRoots from 'assets/images/project-images/about/purple_roots.jpg';
+import treesSparseFan from 'assets/images/project-images/about/sparse_fan.jpg';
+import treesPinkBonsai from 'assets/images/project-images/about/pink_bonsai.jpg';
+import treesCandleHolder from 'assets/images/project-images/about/candle_holder.jpg';
+import treesPotBonsai from 'assets/images/project-images/about/pot_bonsai.jpg';
+import treesPotBonsaiAlt from 'assets/images/project-images/about/pot_bonsai_alt.jpg';
+import treesGoldOak from 'assets/images/project-images/about/gold_oak.jpg';
 
 
 type ImagesType = {
@@ -109,24 +109,24 @@ const images: ImagesType = {
     scadminLocalization,
 
     photo,
-    aboutFirstTree,
-    aboutWeepingWillow,
-    aboutDragonBonsai,
-    aboutWeepingWillow2,
-    aboutSTree,
-    aboutMapleTree,
-    aboutBlackCherry,
-    aboutOrangeBonsai,
-    aboutPurpleDiscs,
-    aboutAlienTree,
-    aboutSplitColorTree,
-    aboutPurpleRootsTree,
-    aboutSparseFanTree,
-    aboutPinkBonsai,
-    aboutCandleHolderTree,
-    aboutPotBonsai,
-    aboutPotBonsaiAlt,
-    aboutGoldOak,
+    treesFirst,
+    treesWeepingWillow,
+    treesDragonBonsai,
+    treesWeepingWillow2,
+    treesSTree,
+    treesMaple,
+    treesBlackCherry,
+    treesOrangeBonsai,
+    treesPurpleDiscs,
+    treesAlien,
+    treesSplitColor,
+    treesPurpleRoots,
+    treesSparseFan,
+    treesPinkBonsai,
+    treesCandleHolder,
+    treesPotBonsai,
+    treesPotBonsaiAlt,
+    treesGoldOak,
 };
 
 

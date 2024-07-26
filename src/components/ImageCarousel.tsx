@@ -69,7 +69,7 @@ function ImageCarousel({ imageNames }: ImageCarouselProps) {
 
     return (
         <div className="relative md:w-full sm:w-3/5 w-full mx-auto">
-            <div className="relative overflow-hidden w-full">
+            <div className="relative overflow-hidden w-full pb-0.5">
                 <div 
                     className="flex transition-transform duration-[0.4s] ease-in-out" 
                     style={{ transform: `translateX(-${index * (isSmallScreen ? 100 : 33.33)}%)` }}

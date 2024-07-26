@@ -34,31 +34,10 @@ function AboutPage() {
     }, []);
 
 
-    const carouselTrees: Array<string> = [
-        "aboutFirstTree",
-        "aboutWeepingWillow",
-        "aboutDragonBonsai",
-        "aboutWeepingWillow2",
-        "aboutSTree",
-        "aboutMapleTree",
-        "aboutBlackCherry",
-        "aboutOrangeBonsai",
-        "aboutPurpleDiscs",
-        "aboutAlienTree",
-        "aboutSplitColorTree",
-        "aboutPurpleRootsTree",
-        "aboutSparseFanTree",
-        "aboutPinkBonsai",
-        "aboutCandleHolderTree",
-        "aboutPotBonsaiAlt",
-        "aboutGoldOak"
-    ];
-
-
     return (
         <div className="min-h-screen font-mono text-slate-200 bg-fixed bg-gradient-to-tr from-gradient-a via-gradient-b to-gradient-c">
             <div className="mx-auto max-w-screen-xl px-6 pb-1 sm:pb-0 md:px-12 lg:px-24">
-                <div className="flex flex-wrap flex-row sm:justify-normal justify-between lg:pt-24 lg:pb-4 md:py-12 pt-6 mb-4">
+                <div className="flex flex-wrap flex-row sm:justify-normal justify-between lg:pt-24 lg:pb-4 md:py-12 pt-6 lg:mb-4 md:mb-24 sm:mb-16 mb-10">
                     <img src={images["photo"]} className="rounded-full sm:order-first order-last sm:max-h-40 max-h-36 max-w-48 border-2 border-stone-300 drop-shadow shadow-xl" />
                     <div className="flex flex-col sm:pt-4 pt-1 sm:ps-8 pe-8 sm:pb-0 pb-10">
                         <div className="mb-2">
@@ -72,123 +51,44 @@ function AboutPage() {
                     </div>
                 </div>
                 
-                <div className="md:flex md:h-[28rem] min-h md:space-x-12 md:space-y-0 space-y-8 mb-24">
-                    <div className="ps-2 md:w-1/2 flex items-center">
+                <div className="md:flex md:h-[28rem] min-h md:space-x-12 md:space-y-0 space-y-8 mb-20">
+                    <div className="ps-2 lg:w-1/2 md:w-2/3 flex items-center">
                         <div>
                             <a className="text-lg text-yellow-300 drop-shadow sm:pb-0 pb-2">
                                 Who am I?
-                            </a><br/>
+                            </a>
+                            <br/>
                             <span className="text-base drop-shadow">
                                 I'm a passionate programmer from Sweden. I enjoy creativity in all its forms, 
                                 from coding, to grand-strategy and programming/automation games, as well as the
-                                construction of wire sculpture trees. Admittedly, this page is a wire tree showcase. 
-                                Try clicking the pictures!
+                                construction of&nbsp;
+                                <Link to={`/trees`} className="text-lime-300 inline-flex items-center pe-0.5 animate-customPulse"> 
+                                    wire sculpture trees
+                                    <IconWrapper icon={icons['opensNewPageArrowIcon']} transform="shrink-6 rotate-45 up-4 right-2" />
+                                </Link>.
+                                Please check them out!
                             </span>
-                        </div>
-                    </div>
-                    <div className="flex flex-row md:w-1/2 w-full">
-                        <div className="flex w-full justify-center items-center">
-                            <img 
-                                src={images["aboutPotBonsai"]}
-                                className="md:max-h-[26rem] max-h-[24rem] lg:max-w-[32rem] md:max-w-[24rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
-                                onClick={() => openImageModal("aboutPotBonsai")}
-                            />
-                        </div>
-                    </div>
-                </div>
-
-                <div className="md:flex md:h-[28rem] min-h md:space-x-14 md:space-y-0 space-y-8 mb-24">
-                    <div className="ps-2 lg:w-1/3 md:w-1/2 flex items-center">
-                        <div>
-                            <a className="text-lg text-yellow-300 drop-shadow sm:pb-0 pb-2">
-                                Trees
-                            </a><br/>
+                            <br/><br/>
                             <span className="text-base drop-shadow">
-                                These trees take anywhere from 5 to 20 hours to complete and I've been making them
-                                for over a year at the time of writing. These are the two first two trees I made.
+                                When I'm not coding you'll find me out for a stroll in nature with my dog, or 
+                                playing racket sports with my friends. I also enjoy exploring different types
+                                of music and food. Lately I've been captivated by classical, jazz, and metal.
+                                As for food, I often try my hand at various different Asian dishes, mostly
+                                Indian and East Asian.
                             </span>
                         </div>
                     </div>
-                    <div className="flex flex-row lg:w-1/3 md:w-1/4 w-full">
+                    <div className="flex flex-row lg:w-1/2 md:w-1/3 w-full">
                         <div className="flex w-full justify-center items-center">
-                            <img 
-                                src={images["aboutFirstTree"]}
-                                className="float-right lg:max-h-[20rem] md:max-h-[13rem] max-h-[20rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
-                                onClick={() => openImageModal("aboutFirstTree")}
-                            />
-                        </div>
-                    </div>
-                    <div className="flex flex-row lg:w-1/3 md:w-1/4 w-full">
-                        <div className="flex w-full justify-center items-center">
-                            <img 
-                                src={images["aboutWeepingWillow"]}
-                                className="float-right lg:max-h-[20rem] md:max-h-[13rem] max-h-[20rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
-                                onClick={() => openImageModal("aboutWeepingWillow")}
+                            <img
+                                src={images["treesPotBonsai"]}
+                                className="md:max-h-[26rem] max-h-[24rem] lg:max-w-[32rem] md:max-w-[18rem] max-w-full object-contain border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
+                                onClick={() => openImageModal("treesPotBonsai")}
                             />
                         </div>
                     </div>
                 </div>
-
-                <div className="mb-36">
-                    <div className="md:flex md:justify-center md:text-center">
-                        <p className="ps-2 pt-8 max-w-96">
-                            <a className="text-lg text-yellow-300 drop-shadow">
-                                My favorites
-                            </a><br/>
-                            <span className="drop-shadow text-slate-100">
-                                While the first of the three was actually only the third tree I made, it remains one 
-                                of my favorites.
-                            </span>
-                        </p>
-                    </div>
-                    <div className="md:flex md:justify-between space-y-0 lg:space-x-12 md:space-x-6">
-                        <div className="flex flex-row md:w-1/3 pt-10 w-full">
-                            <div className="flex w-full justify-center items-center">
-                                <img 
-                                    src={images["aboutDragonBonsai"]}
-                                    className="float-right lg:max-h-[20rem] md:max-h-[15rem] max-h-[20rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
-                                    onClick={() => openImageModal("aboutDragonBonsai")}
-                                />
-                            </div>
-                        </div>
-                        <div className="flex flex-row md:w-1/3 pt-10 w-full">
-                            <div className="flex w-full justify-center items-center">
-                                <img 
-                                    src={images["aboutPinkBonsai"]}
-                                    className="float-right lg:max-h-[20rem] md:max-h-[15rem] max-h-[20rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
-                                    onClick={() => openImageModal("aboutPinkBonsai")}
-                                />
-                            </div>
-                        </div>
-                        <div className="flex flex-row md:w-1/3 pt-10 w-full">
-                            <div className="flex w-full justify-center items-center">
-                                <img 
-                                    src={images["aboutPotBonsaiAlt"]}
-                                    className="float-right lg:max-h-[20rem] md:max-h-[15rem] max-h-[20rem] max-w-full border-2 border-stone-300 rounded drop-shadow shadow-xl hover:cursor-pointer"
-                                    onClick={() => openImageModal("aboutPotBonsaiAlt")}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="mb-36">
-                    <div className="flex justify-center text-center pb-10">
-                        <p className="pt-8 max-w-96">
-                            <a className="text-lg text-yellow-300 drop-shadow">
-                                All trees
-                            </a><br/>
-                            <span className="drop-shadow text-slate-100">
-                                (In order of creation)
-                            </span>
-                        </p>
-                    </div>
-                    <ImageCarousel imageNames={carouselTrees} />
-                </div>
-
             </div>
-            <ScrollIndicator />
-            <ScrollButton />
             <Footer />
             {isModalOpen && <ImageModal imageName={modalImageSrc} closeCallback={closeImageModal} />}
         </div>
