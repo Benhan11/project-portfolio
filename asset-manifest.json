@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-portfolio/static/css/main.6e8ae274.css",
-    "main.js": "/project-portfolio/static/js/main.457c352f.js",
+    "main.js": "/project-portfolio/static/js/main.f4cba614.js",
     "static/media/overview.png": "/project-portfolio/static/media/overview.c3e3f64810607ab5a5de.png",
     "static/media/weeping_willow.jpg": "/project-portfolio/static/media/weeping_willow.a8cd291a2059c8f0543d.jpg",
     "static/media/orange_bonsai.jpg": "/project-portfolio/static/media/orange_bonsai.2077d69e4e7c062475cc.jpg",
@@ -17,8 +17,8 @@
     "static/media/purple_roots.jpg": "/project-portfolio/static/media/purple_roots.99d3e6a50a4ab87aeca9.jpg",
     "static/media/color_theory.svg": "/project-portfolio/static/media/color_theory.558cd9ce68fad2c8a6ee08fe2141c5fa.svg",
     "static/media/lights.png": "/project-portfolio/static/media/lights.dab88d0c6bbe9564ba4d.png",
-    "static/media/photo.jpg": "/project-portfolio/static/media/photo.34b262565ba3fa931120.jpg",
     "static/media/gold_oak.jpg": "/project-portfolio/static/media/gold_oak.b75132a16486313be775.jpg",
+    "static/media/photo.jpg": "/project-portfolio/static/media/photo.d4f97f7b0ebd6e865941.jpg",
     "static/media/images.svg": "/project-portfolio/static/media/images.e71a0be6c04f3de03445137d454e2396.svg",
     "static/media/dynamic.svg": "/project-portfolio/static/media/dynamic.4e28a74edf7aa0e88777870097ec559e.svg",
     "static/media/file.svg": "/project-portfolio/static/media/file.4f47a5303a34dc99ea3e24e43df4aac6.svg",
@@ -53,10 +53,10 @@
     "index.html": "/project-portfolio/index.html",
     "static/media/boxiconsIcon.svg": "/project-portfolio/static/media/boxiconsIcon.dba15587bad994daada35d61f97a6219.svg",
     "main.6e8ae274.css.map": "/project-portfolio/static/css/main.6e8ae274.css.map",
-    "main.457c352f.js.map": "/project-portfolio/static/js/main.457c352f.js.map"
+    "main.f4cba614.js.map": "/project-portfolio/static/js/main.f4cba614.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8ae274.css",
-    "static/js/main.457c352f.js"
+    "static/js/main.f4cba614.js"
   ]
 }
